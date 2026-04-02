@@ -17,7 +17,7 @@
 - **위험도 구간화** (`risk_band`)
 - **사용자 성향 분류** (`persona_type`)
 - **SHAP 기반 해석**
-- **대시보드 연동**
+- **운영 관점에서 활용 가능한 대시보드 구성**
 
 ---
 
@@ -77,9 +77,9 @@ FINAL PROJECT/
 │   ├── synthetic_search_2025.csv
 │   └── synthetic_watch_2025.csv
 ├── docs/
-│   ├── 4_데이터구조_변수정의서.xlsx
-│   ├── 6_피처엔지니어링_변수정의서.xlsx
-│   └── 7_EDA_변수정의서.xlsx
+│   ├── 8_데이터구조_변수정의서.xlsx
+│   ├── 11_피처엔지니어링_변수정의서.xlsx
+│   └── 11_EDA_변수정의서.xlsx
 ├── notebooks/
 │   ├── SHAP_핵심코드.ipynb
 │   ├── 모델링_핵심코드.ipynb
@@ -92,20 +92,24 @@ FINAL PROJECT/
 ├── report/
 ├── image.png
 └── README.md
-```
+
+## 6. Architecture & Data Pipeline
+
+본 프로젝트의 흐름은 아래와 같습니다.
+
+1. **source data 정리**
+2. **churn mart 구성**
+3. **weekly snapshot panel 생성**
+4. **churn 예측 모델 학습 및 평가**
+5. **SHAP 기반 해석**
+6. **dashboard output 생성**
+
+즉, 단순 모델링이 아니라  
+**데이터 가공 → 패널화 → 예측 → 해석 → 대시보드 활용**까지 이어지는 구조로 설계했습니다.
 
 ---
 
-## 6. Project Goal
-
-- **주간 snapshot 기반 churn 예측 모델 구축**
-- **SHAP을 활용한 주요 이탈 요인 해석**
-- **위험군 및 페르소나 기반 세그먼트 생성**
-- **운영 관점에서 활용 가능한 대시보드 구성**
-
----
-
-## 7. Analysis Scope and Design (핵심 분석 기준)
+## 7. Analysis Scope and Design
 
 분석 구조는 **7일 단위 snapshot**, **과거 28일 feature**, **미래 14일 label** 기준으로 설계했습니다.
 
@@ -118,7 +122,7 @@ FINAL PROJECT/
 ---
 
 ## 8. Data Structure
-🔗 [변수정의서](./docs/4_데이터구조_변수정의서.xlsx)
+🔗 [데이터 구조 및 테이블 변수정의서](./docs/4_데이터구조_변수정의서.xlsx)
 
 본 프로젝트의 데이터 구조는 **기본 차원 정보 + 사용자 행동 로그 + 파생 마트 및 라벨**로 구성됩니다.
 
@@ -146,39 +150,21 @@ FINAL PROJECT/
 
 ---
 
-## 10. Architecture & Data Pipeline
-
-본 프로젝트의 흐름은 아래와 같습니다.
-
-1. **source data 정리**
-2. **churn mart 구성**
-3. **weekly snapshot panel 생성**
-4. **churn 예측 모델 학습 및 평가**
-5. **SHAP 기반 해석**
-6. **dashboard output 생성**
-
-즉, 단순 모델링이 아니라  
-**데이터 가공 → 패널화 → 예측 → 해석 → 대시보드 활용**까지 이어지는 구조로 설계했습니다.
-
----
-
-## 11. Feature Engineering
-🔗 [변수정의서](./docs/6_피처엔지니어링_변수정의서.xlsx)
+## 10. Feature Engineering
+🔗 [파생변수 및 피처 엔지니어링 정의서](./docs/6_피처엔지니어링_변수정의서.xlsx)
 
 Feature engineering은 최근 사용자 행동을 설명 가능하게 반영하는 데 초점을 두었습니다.
 
 핵심적으로는 다음 세 축으로 구성됩니다.
 
 - **행동 기반 파생변수** 검색, 추천 반응, 시청 변화, 연속 시청 패턴 반영
-
 - **위험도 산출 구조** 최근성, 시청 감소, 추천 무시, 가격 민감도 등을 종합해 `risk_band` 생성
-
 - **페르소나 분류 구조** 콘텐츠 성향과 가격 민감 성향을 함께 반영해 `persona_type` 정의
 
 ---
 
-## 12. Exploratory Data Analysis (EDA)
-🔗 [변수정의서](./docs/7_EDA_변수정의서.xlsx)
+## 11. Exploratory Data Analysis (EDA)
+🔗 [EDA 분석 변수정의서](./docs/7_EDA_변수정의서.xlsx)
 
 EDA는 raw 데이터를 다시 집계하는 방식이 아니라,  
 **최종 churn mart 기준의 user-level 분석**에 초점을 두고 수행했습니다.
@@ -196,7 +182,7 @@ EDA는 raw 데이터를 다시 집계하는 방식이 아니라,
 
 ---
 
-## 13. Modeling
+## 12. Modeling
 🔗 [모델링 핵심 코드](./notebooks/모델링_핵심코드.ipynb)
 
 모델링은 **weekly snapshot panel**을 기반으로 churn을 예측하는 구조입니다.  
@@ -215,7 +201,7 @@ EDA는 raw 데이터를 다시 집계하는 방식이 아니라,
 
 ---
 
-## 14. SHAP-based Interpretation
+## 13. SHAP-based Interpretation
 🔗 [SHAP 핵심 코드](./notebooks/SHAP_핵심코드.ipynb)
 
 SHAP은 모델 결과를 **설명 가능하게 해석**하기 위해 사용했습니다.
@@ -230,7 +216,7 @@ beeswarm 시각화를 통해 각 변수의 영향 분포와 방향성을 함께 
 
 ---
 
-## 15. Dashboard
+## 14. Dashboard
 
 🔗 [Live Dashboard](https://www.figma.com/design/j0lyiqV8iUbE3On18JXn8A/TVING-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C--%EB%B3%B5%EC%82%AC-)
 
@@ -249,7 +235,7 @@ beeswarm 시각화를 통해 각 변수의 영향 분포와 방향성을 함께 
 
 ---
 
-## 16. Conclusion
+## 15. Conclusion
 
 - **결론 1** : 접속 빈도와 최근 행동 변화는 churn 예측의 핵심 신호였습니다.
 - **결론 2** : 7일 Snapshot / 28일 Feature / 14일 Label 구조로 안정적인 예측 체계를 구축했습니다.
