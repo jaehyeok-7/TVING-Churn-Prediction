@@ -1,0 +1,1031 @@
+movie_id,title_raw,genre_primary,title_tving,release_date,content_type
+movie_0001,Dragon Legend,History,비밀의궁궐 연대기 0000,2024-12-09,only
+movie_0002,Storm Warrior,Sci-Fi,비밀의프로토콜 시즌 0001,2024-11-21,other
+movie_0003,Fire Family,Drama,마음 비긴즈 0002,2024-11-08,other
+movie_0004,Our Princess,Sci-Fi,더미래 스페셜 0003,2024-10-23,other
+movie_0005,Warrior Mission,Sport,새로운스페셜 스페셜 0004,2024-12-23,only
+movie_0006,Kingdom Phoenix,Documentary,첫탐사 비긴즈 0005,2024-12-13,other
+movie_0007,Battle Story,Sci-Fi,더차원 리턴즈 0006,2024-10-29,only
+movie_0008,Old House,Horror,다시괴담 시즌 0007,2024-12-13,cjenm
+movie_0009,Dragon Empire,Biography,마지막삶 스페셜 0008,2025-01-07,cjenm
+movie_0010,Dream War,Thriller,더클립 스페셜 0009,2024-10-25,other
+movie_0011,Day Dream,Western,다시총잡이 이야기 0010,2024-07-04,only
+movie_0012,Bright War,Crime,새로운검은 프로젝트 0011,2024-10-11,other
+movie_0013,Dream Journey,Romance,새로운연애 스페셜 0012,2024-08-12,only
+movie_0014,Little War,Mystery,스페셜 기록 0013,2024-11-15,other
+movie_0015,Hero Empire,Sci-Fi,어느 날 코드 연대기 0014,2024-11-30,only
+movie_0016,Last Dream,Family,어느 날 오늘 연대기 0015,2024-02-29,other
+movie_0017,Kingdom Battle,War,더전우 비긴즈 0016,2024-11-17,original
+movie_0018,Princess Phoenix,Adventure,마지막여정 기록 0017,2024-12-16,other
+movie_0019,An Legend,Sci-Fi,마지막프로토콜 스페셜 0018,2024-10-24,other
+movie_0020,An Mystery,Fantasy,마지막스페셜 기록 0019,2024-07-22,only
+movie_0021,Family Love,Family,더오늘 기록 0020,2024-12-27,other
+movie_0022,First Mystery,Sci-Fi,더차원 시즌 0021,2024-07-23,cjenm
+movie_0023,Mystery Night,Adventure,첫길 스페셜 0022,2024-09-30,only
+movie_0024,Fire Mystery,Biography,마지막전기 리턴즈 0023,2024-12-19,other
+movie_0025,Quest Queen,Family,다시오늘 리턴즈 0024,2024-11-30,other
+movie_0026,Last Love,Comedy,비밀의웃음 리턴즈 0025,2024-11-30,only
+movie_0027,House House,Western,개척 시즌 0026,2024-12-18,cjenm
+movie_0028,Legend Hero,Biography,어느 날 실화 리턴즈 0027,2024-08-19,other
+movie_0029,Dark Princess,Horror,비밀의저주 프로젝트 0028,2024-10-22,original
+movie_0030,Dragon King,Documentary,비밀의현장 리턴즈 0029,2024-10-27,cjenm
+movie_0031,Warrior War,Romance,다시사랑 프로젝트 0030,2024-09-29,only
+movie_0032,House Hero,Crime,사건 리턴즈 0031,2024-12-01,only
+movie_0033,Mystery City,Horror,비밀의그림자 스페셜 0032,2024-12-12,other
+movie_0034,Mission Kingdom,War,마지막영웅 리턴즈 0033,2025-01-03,only
+movie_0035,Princess Love,Family,더오늘 시즌 0034,2024-11-26,original
+movie_0036,House Legend,Adventure,마지막여정 기록 0035,2024-04-27,cjenm
+movie_0037,Empire King,Comedy,다시웃음 연대기 0036,2024-10-20,cjenm
+movie_0038,A Empire,Action,마지막돌격 비긴즈 0037,2024-05-10,original
+movie_0039,Love Queen,Mystery,마지막프로젝트 프로젝트 0038,2024-08-31,other
+movie_0040,Mystery Quest,War,비밀의전우 이야기 0039,2024-07-25,original
+movie_0041,Kingdom War,Biography,비밀의전기 리턴즈 0040,2024-12-31,cjenm
+movie_0042,First Hero,Action,첫돌격 기록 0041,2024-09-01,cjenm
+movie_0043,City Queen,Family,비밀의가족 연대기 0042,2024-09-24,only
+movie_0044,Dragon City,War,마지막작전 시즌 0043,2024-08-04,cjenm
+movie_0045,Battle Day,History,새로운왕조 프로젝트 0044,2024-12-25,original
+movie_0046,The Dragon,Family,첫우리 프로젝트 0045,2024-11-17,original
+movie_0047,Day Journey,Thriller,마지막스페셜 비긴즈 0046,2024-12-16,cjenm
+movie_0048,Secret Legend,Family,더가족 리턴즈 0047,2024-12-12,original
+movie_0049,Kingdom Day,Thriller,더이야기 시즌 0048,2024-12-24,original
+movie_0050,Last Quest,Biography,다시삶 기록 0049,2024-12-04,other
+movie_0051,Hero Mystery,Western,총잡이 이야기 0050,2024-10-27,cjenm
+movie_0052,Hero Journey,Sport,비밀의이야기 리턴즈 0051,2024-11-25,cjenm
+movie_0053,Princess City,History,비밀의연대기 프로젝트 0052,2024-12-17,only
+movie_0054,Phoenix Journey,Romance,어느 날 고백 리턴즈 0053,2024-08-07,original
+movie_0055,Queen Quest,Sci-Fi,비밀의프로토콜 스페셜 0054,2025-01-04,other
+movie_0056,Big Princess,Adventure,다시길 비긴즈 0055,2024-12-08,original
+movie_0057,Mission Dream,Biography,첫전기 비긴즈 0056,2025-01-04,other
+movie_0058,Day Mystery,Drama,새로운인생 프로젝트 0057,2024-12-30,original
+movie_0059,Night Secret,Romance,새로운설렘 연대기 0058,2024-11-13,original
+movie_0060,Night Warrior,Biography,다시실화 리턴즈 0059,2024-07-02,only
+movie_0061,Journey Night,Drama,새로운마음 기록 0060,2024-12-01,cjenm
+movie_0062,Phoenix Mission,Action,첫전투 스페셜 0061,2024-11-20,original
+movie_0063,Hero Kingdom,Adventure,길 시즌 0062,2025-01-02,other
+movie_0064,Last City,Animation,첫마법 시즌 0063,2024-11-14,other
+movie_0065,Day Queen,Sport,더클립 연대기 0064,2024-12-23,cjenm
+movie_0066,Adventure King,Comedy,비밀의코미디 기록 0065,2024-12-08,cjenm
+movie_0067,Story Mystery,Crime,추적 스페셜 0066,2024-11-26,cjenm
+movie_0068,Secret Night,Horror,저주 프로젝트 0067,2024-10-29,cjenm
+movie_0069,An Quest,Documentary,더현장 시즌 0068,2024-12-04,only
+movie_0070,Battle City,Biography,어느 날 인물 리턴즈 0069,2024-12-13,other
+movie_0071,Phoenix Ice,Music,첫프로젝트 연대기 0070,2024-12-22,only
+movie_0072,Storm Warrior,Sci-Fi,새로운미래 리턴즈 0071,2024-11-24,other
+movie_0073,House Family,Action,어느 날 불꽃 기록 0072,2025-01-03,only
+movie_0074,Dark Ice,Comedy,마지막웃겨 연대기 0073,2024-11-04,other
+movie_0075,War Hero,Animation,친구 연대기 0074,2024-11-08,cjenm
+movie_0076,Empire Battle,Family,비밀의오늘 비긴즈 0075,2024-09-27,other
+movie_0077,Our Battle,War,첫작전 리턴즈 0076,2024-12-17,other
+movie_0078,Little War,Fantasy,더클립 기록 0077,2024-10-10,other
+movie_0079,Mission Dream,War,더영웅 기록 0078,2024-12-24,other
+movie_0080,Day Queen,Documentary,다시리포트 시즌 0079,2024-05-28,other
+movie_0081,Mission Fire,Documentary,비밀의리포트 비긴즈 0080,2024-12-15,only
+movie_0082,Bright Phoenix,Western,다시서부 리턴즈 0081,2024-08-19,other
+movie_0083,Journey Phoenix,Sci-Fi,마지막우주 시즌 0082,2024-12-21,original
+movie_0084,Night Phoenix,Documentary,더기록 연대기 0083,2024-07-18,cjenm
+movie_0085,Mission Secret,Crime,더추적 리턴즈 0084,2024-11-27,cjenm
+movie_0086,Big Adventure,Biography,다시삶 리턴즈 0085,2024-11-29,original
+movie_0087,Our Storm,Comedy,마지막웃픈 스페셜 0086,2024-08-23,original
+movie_0088,Journey Love,Sport,새로운오늘 기록 0087,2024-01-16,cjenm
+movie_0089,Mystery Day,Romance,더첫사랑 리턴즈 0088,2024-09-13,cjenm
+movie_0090,Ice Kingdom,Animation,더상상 프로젝트 0089,2024-08-11,cjenm
+movie_0091,Dragon Ice,Horror,첫그림자 연대기 0090,2024-06-06,cjenm
+movie_0092,Story Kingdom,War,비밀의작전 리턴즈 0091,2024-11-03,cjenm
+movie_0093,City Queen,History,새로운궁궐 시즌 0092,2024-12-16,original
+movie_0094,Dark City,Western,다시개척 연대기 0093,2024-10-28,other
+movie_0095,Legend Storm,Fantasy,새로운클립 연대기 0094,2023-12-26,cjenm
+movie_0096,King Fire,Action,어느 날 질주 스페셜 0095,2024-12-10,only
+movie_0097,Secret War,Fantasy,어느 날 이야기 리턴즈 0096,2024-10-26,cjenm
+movie_0098,A War,Adventure,다시탐험 연대기 0097,2024-10-30,other
+movie_0099,Dragon Day,Western,어느 날 총잡이 기록 0098,2023-11-08,cjenm
+movie_0100,Adventure Dream,Fantasy,새로운스페셜 비긴즈 0099,2024-12-25,other
+movie_0101,King House,Animation,비밀의친구 프로젝트 0100,2024-12-27,cjenm
+movie_0102,Fire War,Comedy,마지막웃픈 스페셜 0101,2024-12-11,only
+movie_0103,Family Battle,Sci-Fi,새로운우주 기록 0102,2024-12-12,only
+movie_0104,Mystery Mystery,War,첫전선 시즌 0103,2024-07-23,cjenm
+movie_0105,Adventure House,Animation,다시친구 연대기 0104,2024-12-12,only
+movie_0106,Dragon Night,Animation,비밀의상상 리턴즈 0105,2024-10-26,cjenm
+movie_0107,Love Kingdom,Biography,첫인물 비긴즈 0106,2024-07-09,cjenm
+movie_0108,First Phoenix,Fantasy,비밀의클립 이야기 0107,2024-07-30,other
+movie_0109,Family Story,War,전우 비긴즈 0108,2024-10-13,cjenm
+movie_0110,Queen Day,Comedy,새로운웃겨 연대기 0109,2024-08-28,other
+movie_0111,Kingdom Mission,Sport,첫이야기 비긴즈 0110,2024-10-01,cjenm
+movie_0112,King Princess,Music,더클립 기록 0111,2024-12-19,original
+movie_0113,A Quest,History,첫서사 연대기 0112,2024-09-11,other
+movie_0114,Journey King,Animation,비밀의친구 시즌 0113,2024-08-12,cjenm
+movie_0115,War Dragon,Crime,사건 연대기 0114,2024-05-21,other
+movie_0116,Secret Story,Biography,새로운삶 시즌 0115,2024-10-21,other
+movie_0117,Little Dragon,Family,첫하루 기록 0116,2025-01-01,other
+movie_0118,Hero Love,Sport,다시프로젝트 비긴즈 0117,2024-11-23,other
+movie_0119,Little Warrior,Action,새로운폭풍 기록 0118,2024-11-01,cjenm
+movie_0120,Last Mission,Mystery,첫프로젝트 기록 0119,2024-11-30,only
+movie_0121,Last Dream,Mystery,다시스페셜 스페셜 0120,2024-09-02,other
+movie_0122,Little Queen,History,어느 날 궁궐 비긴즈 0121,2025-01-08,cjenm
+movie_0123,Family Fire,Documentary,더리포트 시즌 0122,2024-12-01,other
+movie_0124,Bright House,Comedy,새로운대환장 비긴즈 0123,2024-09-21,only
+movie_0125,Our Queen,Western,어느 날 결투 비긴즈 0124,2024-12-10,original
+movie_0126,Journey Princess,Sci-Fi,다시미래 비긴즈 0125,2024-11-04,other
+movie_0127,Dragon Quest,Music,클립 기록 0126,2024-12-15,other
+movie_0128,A Quest,History,어느 날 연대기 이야기 0127,2024-11-27,other
+movie_0129,Mission Fire,Sci-Fi,더프로토콜 스페셜 0128,2024-08-15,cjenm
+movie_0130,Last House,Action,다시폭풍 비긴즈 0129,2024-06-29,original
+movie_0131,Story Mystery,Sci-Fi,어느 날 차원 비긴즈 0130,2024-12-27,original
+movie_0132,Dragon War,Comedy,비밀의웃음 프로젝트 0131,2024-10-23,other
+movie_0133,Adventure Princess,Family,새로운가족 시즌 0132,2024-11-19,other
+movie_0134,Story Night,Adventure,다시탐험 시즌 0133,2024-12-14,only
+movie_0135,Princess House,Western,다시개척 스페셜 0134,2024-12-31,only
+movie_0136,First House,Adventure,다시길 이야기 0135,2024-12-27,only
+movie_0137,First Mission,History,더궁궐 비긴즈 0136,2024-04-12,original
+movie_0138,Kingdom Fire,Biography,새로운실화 이야기 0137,2024-09-14,only
+movie_0139,Last War,Mystery,오늘 비긴즈 0138,2024-11-19,only
+movie_0140,City Empire,Sport,비밀의클립 시즌 0139,2024-08-05,only
+movie_0141,War Story,Action,첫돌격 스페셜 0140,2024-08-19,only
+movie_0142,Battle Secret,Western,비밀의황야 시즌 0141,2024-12-18,only
+movie_0143,Adventure Fire,Biography,다시삶 시즌 0142,2024-06-28,other
+movie_0144,Our Dream,Comedy,비밀의웃픈 비긴즈 0143,2024-10-03,cjenm
+movie_0145,Fire Empire,Thriller,마지막스페셜 프로젝트 0144,2024-11-28,other
+movie_0146,Bright Love,War,마지막전우 스페셜 0145,2025-01-02,cjenm
+movie_0147,Dark Love,Action,다시질주 기록 0146,2024-09-07,only
+movie_0148,War Storm,Mystery,첫스페셜 프로젝트 0147,2024-11-22,original
+movie_0149,The Fire,Action,마지막돌격 리턴즈 0148,2024-08-18,only
+movie_0150,Story Fire,Adventure,더지도 연대기 0149,2024-11-18,original
+movie_0151,Night Love,Animation,어느 날 상상 이야기 0150,2024-10-24,only
+movie_0152,Fire Quest,Documentary,첫리포트 비긴즈 0151,2024-09-12,other
+movie_0153,Phoenix Dragon,Animation,어느 날 모험 스페셜 0152,2024-12-14,other
+movie_0154,Bright Phoenix,Sci-Fi,다시코드 프로젝트 0153,2023-10-24,cjenm
+movie_0155,Dream Battle,Romance,어느 날 사랑 스페셜 0154,2024-09-14,cjenm
+movie_0156,An Ice,History,첫서사 연대기 0155,2024-11-22,cjenm
+movie_0157,Last Ice,Sport,이야기 비긴즈 0156,2024-09-10,cjenm
+movie_0158,Storm Princess,War,더전우 스페셜 0157,2024-10-17,cjenm
+movie_0159,Battle Family,Drama,마지막기억 기록 0158,2024-07-08,original
+movie_0160,Love Journey,Comedy,더대환장 스페셜 0159,2024-10-16,original
+movie_0161,Our King,Western,어느 날 서부 비긴즈 0160,2024-12-16,other
+movie_0162,Day Fire,Animation,더상상 프로젝트 0161,2024-08-02,other
+movie_0163,Bright War,Comedy,어느 날 코미디 스페셜 0162,2024-05-29,other
+movie_0164,Quest Ice,Romance,어느 날 고백 기록 0163,2024-10-05,only
+movie_0165,Bright Day,Action,새로운불꽃 스페셜 0164,2024-11-15,original
+movie_0166,Mystery Princess,Western,새로운결투 연대기 0165,2024-11-16,other
+movie_0167,Battle Night,Adventure,어느 날 여정 리턴즈 0166,2024-11-09,only
+movie_0168,Love Love,Crime,더검은 리턴즈 0167,2025-01-01,cjenm
+movie_0169,Storm Day,Western,새로운서부 리턴즈 0168,2024-10-12,original
+movie_0170,Phoenix Love,Horror,더밤 기록 0169,2024-10-09,other
+movie_0171,Dream Warrior,Biography,더삶 시즌 0170,2024-09-18,other
+movie_0172,My Story,Horror,비밀의괴담 비긴즈 0171,2024-09-17,other
+movie_0173,Little Dragon,Sci-Fi,새로운코드 연대기 0172,2024-11-26,other
+movie_0174,City Battle,Thriller,새로운이야기 리턴즈 0173,2024-07-05,original
+movie_0175,Fire Day,Fantasy,비밀의프로젝트 프로젝트 0174,2024-09-14,other
+movie_0176,Dream City,Documentary,첫다큐 비긴즈 0175,2024-09-27,other
+movie_0177,Fire Princess,Drama,비밀의가족 연대기 0176,2024-11-18,cjenm
+movie_0178,Our Princess,Animation,비밀의마법 비긴즈 0177,2024-12-08,original
+movie_0179,Battle Empire,Documentary,다큐 비긴즈 0178,2024-12-22,other
+movie_0180,Story Queen,Action,첫전투 연대기 0179,2024-09-28,other
+movie_0181,Phoenix Hero,Crime,비밀의비밀 비긴즈 0180,2024-08-09,original
+movie_0182,Mystery Adventure,Thriller,비밀의클립 스페셜 0181,2024-12-06,original
+movie_0183,House Phoenix,Music,더스페셜 리턴즈 0182,2024-08-17,other
+movie_0184,Legend House,Documentary,첫다큐 비긴즈 0183,2024-11-26,cjenm
+movie_0185,King Ice,History,어느 날 연대기 시즌 0184,2024-11-22,cjenm
+movie_0186,Old House,Comedy,비밀의웃겨 스페셜 0185,2024-09-05,only
+movie_0187,First Journey,Crime,더검은 스페셜 0186,2024-11-10,only
+movie_0188,Our Hero,Comedy,어느 날 대환장 연대기 0187,2024-10-30,cjenm
+movie_0189,Family Mission,Documentary,비밀의탐사 비긴즈 0188,2024-10-02,other
+movie_0190,Princess Night,Fantasy,다시클립 연대기 0189,2024-08-07,original
+movie_0191,War Kingdom,Adventure,비밀의여정 리턴즈 0190,2024-10-08,cjenm
+movie_0192,Family Queen,Comedy,새로운웃겨 이야기 0191,2024-11-30,original
+movie_0193,Love Story,Animation,상상 프로젝트 0192,2024-10-29,other
+movie_0194,The Phoenix,Western,새로운서부 기록 0193,2024-11-22,cjenm
+movie_0195,New Phoenix,Music,어느 날 오늘 프로젝트 0194,2024-11-30,other
+movie_0196,Legend Mission,Mystery,어느 날 클립 연대기 0195,2024-12-19,other
+movie_0197,Adventure War,History,다시왕조 시즌 0196,2024-12-12,other
+movie_0198,Phoenix Family,Sport,다시클립 비긴즈 0197,2024-10-09,other
+movie_0199,A Love,Music,더클립 기록 0198,2024-12-26,other
+movie_0200,Legend Secret,Drama,청춘 시즌 0199,2024-09-18,other
+movie_0201,Secret Battle,Adventure,새로운모험 시즌 0200,2024-09-24,other
+movie_0202,City Empire,Horror,새로운공포 시즌 0201,2024-07-08,only
+movie_0203,First Journey,Action,마지막질주 비긴즈 0202,2024-12-30,cjenm
+movie_0204,My Quest,Action,새로운폭풍 시즌 0203,2024-06-27,other
+movie_0205,Adventure Legend,Drama,다시인생 리턴즈 0204,2024-08-02,cjenm
+movie_0206,Big Dragon,Romance,다시설렘 시즌 0205,2024-12-22,only
+movie_0207,Family Ice,Sport,더클립 시즌 0206,2024-11-26,original
+movie_0208,The Story,Thriller,첫프로젝트 이야기 0207,2024-07-26,other
+movie_0209,King Dragon,History,새로운역사 이야기 0208,2024-10-07,cjenm
+movie_0210,Princess Kingdom,Sport,첫프로젝트 기록 0209,2024-12-27,cjenm
+movie_0211,Kingdom Princess,Romance,비밀의사랑 리턴즈 0210,2024-11-02,other
+movie_0212,Story King,War,더전쟁 리턴즈 0211,2024-10-10,only
+movie_0213,Queen House,Fantasy,오늘 이야기 0212,2024-12-22,only
+movie_0214,Last Dragon,Animation,다시상상 이야기 0213,2024-07-14,cjenm
+movie_0215,City Warrior,Western,비밀의결투 기록 0214,2024-10-02,other
+movie_0216,Day City,Action,더폭풍 프로젝트 0215,2024-10-07,original
+movie_0217,Quest Secret,Drama,가족 시즌 0216,2024-11-21,original
+movie_0218,Journey Mission,Action,어느 날 폭풍 프로젝트 0217,2024-06-25,only
+movie_0219,Bright Adventure,Comedy,코미디 리턴즈 0218,2024-12-03,other
+movie_0220,An War,Comedy,새로운웃음 리턴즈 0219,2024-10-26,only
+movie_0221,Empire Kingdom,Crime,더증거 스페셜 0220,2024-12-08,only
+movie_0222,Battle Phoenix,Western,첫서부 프로젝트 0221,2024-05-28,other
+movie_0223,Story Phoenix,History,어느 날 궁궐 시즌 0222,2024-12-13,only
+movie_0224,The Princess,Drama,어느 날 인생 기록 0223,2024-12-27,cjenm
+movie_0225,Our Family,Adventure,새로운길 기록 0224,2024-12-13,only
+movie_0226,A Dream,Western,비밀의총잡이 프로젝트 0225,2024-02-14,other
+movie_0227,Last Storm,Family,어느 날 가족 프로젝트 0226,2024-05-24,cjenm
+movie_0228,City Family,Family,어느 날 우리 이야기 0227,2024-11-28,only
+movie_0229,Last Secret,Drama,다시인생 시즌 0228,2024-12-08,only
+movie_0230,Kingdom King,Biography,어느 날 실화 리턴즈 0229,2024-09-15,only
+movie_0231,Storm Quest,Mystery,다시이야기 비긴즈 0230,2024-10-11,other
+movie_0232,Kingdom War,Sci-Fi,첫우주 시즌 0231,2024-08-29,cjenm
+movie_0233,Storm Ice,History,더왕조 비긴즈 0232,2024-06-28,only
+movie_0234,An Fire,Horror,더그림자 스페셜 0233,2024-11-10,other
+movie_0235,Empire Story,Crime,어느 날 추적 기록 0234,2024-12-11,original
+movie_0236,Queen Warrior,Action,마지막돌격 연대기 0235,2024-07-08,cjenm
+movie_0237,Legend Warrior,Animation,첫친구 기록 0236,2024-10-14,other
+movie_0238,Bright Journey,Adventure,비밀의모험 리턴즈 0237,2024-10-04,cjenm
+movie_0239,Kingdom Dream,Sci-Fi,마지막코드 이야기 0238,2024-11-02,other
+movie_0240,Last House,Drama,다시가족 프로젝트 0239,2024-12-28,original
+movie_0241,Dark Ice,War,어느 날 작전 이야기 0240,2024-12-11,only
+movie_0242,Mission Storm,Sci-Fi,다시차원 연대기 0241,2024-11-23,other
+movie_0243,New Quest,Comedy,다시웃겨 비긴즈 0242,2024-12-01,other
+movie_0244,Little City,History,새로운역사 연대기 0243,2024-11-23,other
+movie_0245,Night King,Mystery,더오늘 비긴즈 0244,2024-05-17,only
+movie_0246,Empire Adventure,Documentary,비밀의탐사 비긴즈 0245,2024-12-27,only
+movie_0247,Bright Princess,Documentary,탐사 비긴즈 0246,2024-12-07,other
+movie_0248,Love Storm,Mystery,마지막오늘 이야기 0247,2025-01-01,original
+movie_0249,City Storm,War,비밀의작전 프로젝트 0248,2024-10-18,other
+movie_0250,First Ice,Sci-Fi,어느 날 코드 기록 0249,2024-12-07,original
+movie_0251,Queen Mystery,Comedy,새로운코미디 리턴즈 0250,2024-04-17,only
+movie_0252,My Quest,Romance,새로운설렘 프로젝트 0251,2024-12-07,other
+movie_0253,City Queen,Fantasy,첫프로젝트 스페셜 0252,2024-05-12,other
+movie_0254,Empire Mystery,Drama,어느 날 마음 이야기 0253,2024-06-27,only
+movie_0255,Dark Legend,Animation,어느 날 꿈 비긴즈 0254,2024-10-05,cjenm
+movie_0256,Kingdom War,Thriller,새로운오늘 연대기 0255,2024-11-24,only
+movie_0257,Dragon King,History,첫역사 이야기 0256,2024-12-26,only
+movie_0258,Adventure Love,Music,마지막오늘 리턴즈 0257,2024-05-26,only
+movie_0259,Princess Warrior,Crime,첫추적 스페셜 0258,2024-10-24,other
+movie_0260,Love Love,Action,어느 날 돌격 이야기 0259,2024-11-20,original
+movie_0261,Hero Dream,Biography,비밀의삶 연대기 0260,2024-11-06,cjenm
+movie_0262,House Secret,Sport,마지막오늘 리턴즈 0261,2024-10-27,only
+movie_0263,Big Ice,Music,더클립 프로젝트 0262,2024-12-06,other
+movie_0264,Our Queen,Biography,첫인물 스페셜 0263,2024-06-28,cjenm
+movie_0265,Warrior Fire,Western,새로운총잡이 비긴즈 0264,2024-09-27,cjenm
+movie_0266,Ice Fire,Romance,어느 날 첫사랑 비긴즈 0265,2024-10-09,other
+movie_0267,Our War,Animation,마지막모험 비긴즈 0266,2024-11-25,other
+movie_0268,Quest Empire,Comedy,비밀의웃겨 연대기 0267,2024-10-24,original
+movie_0269,Secret Mystery,Drama,어느 날 기억 리턴즈 0268,2024-08-22,cjenm
+movie_0270,Secret Ice,Romance,마지막첫사랑 비긴즈 0269,2024-11-17,cjenm
+movie_0271,Our Mission,Music,마지막오늘 시즌 0270,2024-11-28,other
+movie_0272,Day Fire,Family,비밀의가족 기록 0271,2024-12-12,cjenm
+movie_0273,New Adventure,Adventure,첫지도 기록 0272,2024-09-24,cjenm
+movie_0274,Story Phoenix,Horror,첫밤 이야기 0273,2024-12-07,other
+movie_0275,Night City,Drama,인생 비긴즈 0274,2025-01-06,other
+movie_0276,Dark Storm,Family,첫오늘 시즌 0275,2024-10-03,original
+movie_0277,An Empire,Adventure,다시여정 스페셜 0276,2024-10-17,only
+movie_0278,Dragon Storm,Documentary,어느 날 리포트 기록 0277,2024-10-10,other
+movie_0279,My Adventure,War,새로운영웅 비긴즈 0278,2024-09-11,other
+movie_0280,Legend Story,Mystery,새로운스페셜 연대기 0279,2024-10-02,other
+movie_0281,House Phoenix,Crime,다시사건 스페셜 0280,2024-12-26,other
+movie_0282,Secret Ice,Comedy,첫웃음 시즌 0281,2024-11-10,other
+movie_0283,Big Mission,History,어느 날 왕조 프로젝트 0282,2024-10-10,other
+movie_0284,King Dragon,Romance,비밀의사랑 스페셜 0283,2024-12-23,other
+movie_0285,Dragon Dragon,Horror,새로운밤 비긴즈 0284,2024-09-09,cjenm
+movie_0286,First Queen,Thriller,비밀의프로젝트 이야기 0285,2024-05-28,only
+movie_0287,The Adventure,Animation,어느 날 마법 리턴즈 0286,2024-11-02,only
+movie_0288,Mystery Adventure,Music,비밀의이야기 기록 0287,2024-12-03,original
+movie_0289,Love City,Action,새로운돌격 비긴즈 0288,2024-10-16,original
+movie_0290,Dark City,Animation,어느 날 친구 연대기 0289,2024-10-11,only
+movie_0291,Princess War,Romance,어느 날 첫사랑 시즌 0290,2024-08-16,other
+movie_0292,Family Princess,Adventure,어느 날 지도 프로젝트 0291,2024-10-17,cjenm
+movie_0293,Quest Adventure,Adventure,비밀의길 연대기 0292,2024-12-30,other
+movie_0294,King Kingdom,Horror,공포 시즌 0293,2024-12-28,other
+movie_0295,Little Dragon,Fantasy,첫클립 비긴즈 0294,2024-11-03,other
+movie_0296,Ice Mystery,Documentary,더리포트 스페셜 0295,2024-09-26,other
+movie_0297,Secret Mission,Thriller,프로젝트 시즌 0296,2024-09-19,only
+movie_0298,City Dream,Adventure,더탐험 기록 0297,2024-11-10,other
+movie_0299,Quest Mystery,Biography,더실화 이야기 0298,2024-12-22,cjenm
+movie_0300,House War,Sci-Fi,어느 날 프로토콜 리턴즈 0299,2024-12-03,only
+movie_0301,Fire Battle,Horror,새로운공포 리턴즈 0300,2024-09-20,only
+movie_0302,Bright Battle,Drama,더인생 리턴즈 0301,2024-12-09,original
+movie_0303,Quest Princess,History,더왕조 프로젝트 0302,2024-12-04,other
+movie_0304,Dragon Warrior,History,더연대기 연대기 0303,2025-01-01,other
+movie_0305,Legend House,Adventure,길 비긴즈 0304,2024-10-16,other
+movie_0306,Warrior House,Comedy,마지막코미디 리턴즈 0305,2024-11-10,other
+movie_0307,Dark Ice,Crime,새로운증거 시즌 0306,2024-06-21,cjenm
+movie_0308,Old Dragon,Western,첫총잡이 연대기 0307,2024-11-24,other
+movie_0309,War Legend,Sci-Fi,마지막미래 프로젝트 0308,2024-10-23,only
+movie_0310,Legend Ice,Family,어느 날 함께 기록 0309,2024-08-12,other
+movie_0311,War Empire,Adventure,첫탐험 리턴즈 0310,2024-10-24,other
+movie_0312,King Legend,Romance,더첫사랑 스페셜 0311,2024-12-04,original
+movie_0313,Quest Love,Adventure,마지막탐험 리턴즈 0312,2024-10-08,other
+movie_0314,Adventure Princess,Sci-Fi,비밀의우주 시즌 0313,2024-12-12,cjenm
+movie_0315,Big Hero,Mystery,마지막스페셜 시즌 0314,2024-10-14,other
+movie_0316,Mystery Kingdom,History,어느 날 연대기 기록 0315,2024-12-29,only
+movie_0317,Mystery Love,Drama,마지막기억 프로젝트 0316,2024-12-13,cjenm
+movie_0318,Mission Day,Crime,비밀의비밀 연대기 0317,2024-11-15,only
+movie_0319,My Journey,Crime,첫추적 프로젝트 0318,2024-11-07,only
+movie_0320,Fire Queen,Documentary,첫현장 기록 0319,2024-01-31,other
+movie_0321,First Family,Comedy,더웃겨 시즌 0320,2024-10-09,cjenm
+movie_0322,Day Night,Western,어느 날 총잡이 시즌 0321,2024-12-18,other
+movie_0323,Little City,Adventure,어느 날 탐험 기록 0322,2024-11-18,cjenm
+movie_0324,Phoenix Dragon,Fantasy,비밀의스페셜 스페셜 0323,2024-03-05,cjenm
+movie_0325,Dream Family,Sport,더프로젝트 이야기 0324,2024-11-14,original
+movie_0326,Our Queen,Family,비밀의하루 이야기 0325,2024-06-19,only
+movie_0327,The Storm,History,첫연대기 스페셜 0326,2024-09-24,only
+movie_0328,Mystery Day,Horror,더밤 스페셜 0327,2024-12-29,cjenm
+movie_0329,Battle Phoenix,Documentary,새로운리포트 비긴즈 0328,2024-12-20,other
+movie_0330,Legend King,Biography,더삶 프로젝트 0329,2024-10-09,cjenm
+movie_0331,A Quest,Family,하루 연대기 0330,2024-10-13,other
+movie_0332,Queen Dream,Fantasy,다시스페셜 기록 0331,2024-11-06,other
+movie_0333,The Dream,Action,불꽃 프로젝트 0332,2024-03-28,other
+movie_0334,Story Warrior,Comedy,첫웃겨 시즌 0333,2024-07-26,original
+movie_0335,Quest Mission,Crime,첫증거 기록 0334,2024-09-17,only
+movie_0336,Queen Warrior,Comedy,첫코미디 리턴즈 0335,2024-11-21,only
+movie_0337,Storm Dream,Documentary,다시기록 프로젝트 0336,2024-11-29,other
+movie_0338,Old Mission,Romance,비밀의설렘 연대기 0337,2024-12-06,original
+movie_0339,Big Empire,Fantasy,더프로젝트 기록 0338,2024-04-07,only
+movie_0340,Mission Quest,Documentary,첫탐사 프로젝트 0339,2024-12-12,original
+movie_0341,Battle Ice,Western,개척 연대기 0340,2024-12-06,cjenm
+movie_0342,Adventure Story,Biography,다시기록 기록 0341,2024-07-27,only
+movie_0343,Legend Mission,Animation,마법 프로젝트 0342,2024-07-26,other
+movie_0344,Mystery Fire,Thriller,첫클립 이야기 0343,2024-11-27,cjenm
+movie_0345,Dark Secret,Fantasy,비밀의프로젝트 리턴즈 0344,2024-12-08,other
+movie_0346,House City,Animation,첫상상 이야기 0345,2024-12-25,original
+movie_0347,Story Warrior,Comedy,첫웃겨 리턴즈 0346,2024-12-13,cjenm
+movie_0348,Quest Adventure,Sport,첫클립 이야기 0347,2024-12-07,only
+movie_0349,Fire King,Romance,다시사랑 리턴즈 0348,2024-11-20,other
+movie_0350,Dragon Hero,History,더연대기 이야기 0349,2024-03-12,cjenm
+movie_0351,Family Story,Family,마지막가족 스페셜 0350,2024-12-10,only
+movie_0352,New Kingdom,Thriller,마지막스페셜 프로젝트 0351,2024-12-28,original
+movie_0353,Quest Hero,Action,마지막돌격 스페셜 0352,2024-12-17,other
+movie_0354,New Adventure,Adventure,다시길 비긴즈 0353,2024-09-15,other
+movie_0355,Dream Dream,Family,더오늘 비긴즈 0354,2024-12-28,other
+movie_0356,Love Empire,Music,더스페셜 이야기 0355,2024-05-31,only
+movie_0357,Our Queen,Crime,첫사건 이야기 0356,2024-12-07,original
+movie_0358,Legend Secret,Drama,첫기억 스페셜 0357,2024-12-21,other
+movie_0359,Quest Hero,Biography,어느 날 전기 시즌 0358,2024-12-26,only
+movie_0360,Fire Night,Comedy,어느 날 웃픈 프로젝트 0359,2024-12-25,original
+movie_0361,War Adventure,Drama,새로운가족 연대기 0360,2024-11-16,cjenm
+movie_0362,Bright Phoenix,Drama,어느 날 가족 기록 0361,2024-10-08,cjenm
+movie_0363,Night Secret,Animation,비밀의모험 스페셜 0362,2024-09-25,only
+movie_0364,Princess House,Thriller,더스페셜 시즌 0363,2024-10-16,cjenm
+movie_0365,First Quest,Action,다시질주 연대기 0364,2024-06-08,cjenm
+movie_0366,War Dragon,Crime,첫비밀 프로젝트 0365,2024-12-09,original
+movie_0367,Storm Secret,Drama,마지막기억 이야기 0366,2024-04-15,cjenm
+movie_0368,The Empire,Western,새로운개척 비긴즈 0367,2024-10-13,other
+movie_0369,Big Ice,Family,어느 날 우리 스페셜 0368,2024-12-27,other
+movie_0370,Princess Quest,Music,새로운이야기 시즌 0369,2024-11-11,original
+movie_0371,King Love,Biography,마지막실화 시즌 0370,2024-11-29,cjenm
+movie_0372,Love Fire,Documentary,비밀의탐사 이야기 0371,2024-10-28,other
+movie_0373,Queen Journey,War,다시전우 프로젝트 0372,2024-09-22,only
+movie_0374,The Story,Adventure,첫지도 리턴즈 0373,2024-12-26,other
+movie_0375,Last Kingdom,Fantasy,더스페셜 기록 0374,2024-10-13,only
+movie_0376,City Legend,Family,첫가족 기록 0375,2024-09-08,cjenm
+movie_0377,Ice Journey,Animation,마지막마법 비긴즈 0376,2024-05-18,other
+movie_0378,Quest Family,Sport,새로운클립 프로젝트 0377,2024-09-12,original
+movie_0379,Our Battle,Horror,마지막저주 이야기 0378,2024-12-09,cjenm
+movie_0380,House Dragon,Animation,더모험 이야기 0379,2023-12-12,other
+movie_0381,Dragon Princess,Biography,비밀의삶 연대기 0380,2024-02-06,other
+movie_0382,Love Empire,War,어느 날 전우 스페셜 0381,2024-06-01,cjenm
+movie_0383,Day City,Crime,더사건 연대기 0382,2024-12-23,only
+movie_0384,Night Adventure,Music,더프로젝트 기록 0383,2024-08-08,original
+movie_0385,Little Journey,Family,더함께 리턴즈 0384,2024-12-04,other
+movie_0386,Hero Hero,War,첫영웅 시즌 0385,2024-11-10,cjenm
+movie_0387,Night King,Animation,비밀의상상 비긴즈 0386,2024-09-01,other
+movie_0388,An Mission,Animation,첫마법 이야기 0387,2024-12-23,other
+movie_0389,Last Mission,History,역사 스페셜 0388,2024-10-24,other
+movie_0390,Old Night,Fantasy,다시이야기 비긴즈 0389,2024-04-25,only
+movie_0391,Night Night,Crime,비밀의사건 이야기 0390,2024-01-27,original
+movie_0392,Hero City,Adventure,어느 날 지도 비긴즈 0391,2024-12-01,cjenm
+movie_0393,A Storm,Sci-Fi,첫우주 비긴즈 0392,2024-09-20,only
+movie_0394,Dark Kingdom,Adventure,더길 리턴즈 0393,2024-11-30,cjenm
+movie_0395,Princess Queen,Family,다시하루 프로젝트 0394,2024-12-30,other
+movie_0396,Storm Night,War,어느 날 전우 시즌 0395,2024-12-12,cjenm
+movie_0397,Legend Adventure,Sci-Fi,새로운차원 스페셜 0396,2024-06-26,cjenm
+movie_0398,Hero Story,Animation,새로운모험 리턴즈 0397,2024-09-30,only
+movie_0399,Our Ice,Horror,새로운공포 시즌 0398,2024-10-29,other
+movie_0400,Night Queen,Action,폭풍 스페셜 0399,2024-10-14,only
+movie_0401,Queen War,Family,더우리 스페셜 0400,2024-12-14,only
+movie_0402,Fire Dream,Romance,마지막고백 스페셜 0401,2024-09-04,other
+movie_0403,Legend Legend,History,더연대기 비긴즈 0402,2024-05-19,cjenm
+movie_0404,Family Story,War,전선 프로젝트 0403,2024-11-25,only
+movie_0405,Old Ice,Biography,다시삶 이야기 0404,2024-10-22,cjenm
+movie_0406,Mystery Empire,Adventure,마지막여정 이야기 0405,2024-12-28,cjenm
+movie_0407,Phoenix Adventure,Action,더폭풍 스페셜 0406,2024-07-13,other
+movie_0408,Adventure Love,Music,첫스페셜 리턴즈 0407,2024-07-15,cjenm
+movie_0409,Mystery Storm,Fantasy,비밀의프로젝트 프로젝트 0408,2024-11-14,original
+movie_0410,Last Battle,Drama,인생 비긴즈 0409,2024-12-27,original
+movie_0411,Dream Dream,Music,새로운클립 기록 0410,2024-11-06,original
+movie_0412,Princess Adventure,Comedy,더웃픈 프로젝트 0411,2024-08-25,only
+movie_0413,Legend Day,Family,다시가족 기록 0412,2024-03-12,other
+movie_0414,Adventure Queen,Documentary,탐사 연대기 0413,2024-11-26,other
+movie_0415,Last Quest,Horror,비밀의저주 기록 0414,2024-02-07,other
+movie_0416,A Mystery,Mystery,마지막프로젝트 기록 0415,2024-12-26,other
+movie_0417,Dragon Day,Western,서부 비긴즈 0416,2024-11-04,cjenm
+movie_0418,Big Story,Western,더황야 스페셜 0417,2024-10-13,cjenm
+movie_0419,New Fire,Fantasy,다시오늘 이야기 0418,2024-10-13,other
+movie_0420,War Hero,Western,더총잡이 리턴즈 0419,2024-12-22,original
+movie_0421,Legend Love,War,비밀의전선 연대기 0420,2024-06-21,other
+movie_0422,City Night,Family,첫함께 시즌 0421,2024-11-02,other
+movie_0423,Our Night,Biography,마지막기록 스페셜 0422,2024-11-28,cjenm
+movie_0424,Battle Secret,Mystery,첫스페셜 이야기 0423,2024-06-17,cjenm
+movie_0425,Storm Kingdom,Adventure,새로운여정 비긴즈 0424,2024-12-30,other
+movie_0426,Warrior King,Action,첫불꽃 프로젝트 0425,2024-10-19,cjenm
+movie_0427,A King,Western,마지막황야 프로젝트 0426,2024-01-15,only
+movie_0428,Empire King,Thriller,새로운스페셜 리턴즈 0427,2024-11-14,cjenm
+movie_0429,Kingdom City,History,왕조 리턴즈 0428,2024-12-12,other
+movie_0430,Dragon Princess,Sci-Fi,다시미래 시즌 0429,2024-11-22,other
+movie_0431,A Adventure,History,새로운연대기 비긴즈 0430,2024-12-26,original
+movie_0432,Love Journey,Animation,더모험 프로젝트 0431,2024-12-25,other
+movie_0433,Our City,Crime,마지막추적 연대기 0432,2024-11-29,only
+movie_0434,Princess Battle,Fantasy,이야기 프로젝트 0433,2024-12-08,only
+movie_0435,Mission Phoenix,Family,첫함께 리턴즈 0434,2024-09-17,original
+movie_0436,Story City,History,마지막왕조 시즌 0435,2024-11-29,other
+movie_0437,Ice Secret,Animation,모험 시즌 0436,2024-12-29,only
+movie_0438,Mission Fire,Mystery,프로젝트 기록 0437,2025-01-10,cjenm
+movie_0439,Little Kingdom,Documentary,비밀의리포트 연대기 0438,2024-10-26,other
+movie_0440,Love War,Biography,더전기 시즌 0439,2024-09-26,other
+movie_0441,Day Legend,Comedy,더코미디 연대기 0440,2024-05-31,other
+movie_0442,Dragon Storm,War,전쟁 연대기 0441,2024-12-21,other
+movie_0443,Battle Legend,Documentary,어느 날 다큐 프로젝트 0442,2024-09-25,only
+movie_0444,Dragon Mystery,Romance,사랑 시즌 0443,2024-12-27,other
+movie_0445,Secret Family,Thriller,오늘 시즌 0444,2024-11-01,only
+movie_0446,Queen Mission,Adventure,더여정 비긴즈 0445,2024-10-05,other
+movie_0447,House Night,History,새로운왕조 비긴즈 0446,2024-09-11,cjenm
+movie_0448,Story Hero,Comedy,어느 날 웃음 기록 0447,2024-12-07,original
+movie_0449,Night House,Horror,마지막밤 이야기 0448,2024-12-01,other
+movie_0450,A Quest,Action,어느 날 돌격 연대기 0449,2025-01-03,other
+movie_0451,Family Legend,Family,어느 날 오늘 연대기 0450,2023-12-27,cjenm
+movie_0452,Family Secret,Romance,비밀의연애 스페셜 0451,2024-10-04,only
+movie_0453,Princess Dream,Adventure,첫지도 이야기 0452,2024-11-03,only
+movie_0454,Princess Queen,Mystery,어느 날 프로젝트 리턴즈 0453,2025-01-02,cjenm
+movie_0455,Journey Quest,Fantasy,마지막스페셜 스페셜 0454,2024-05-16,only
+movie_0456,Ice Legend,War,새로운전우 스페셜 0455,2024-12-20,other
+movie_0457,The Day,Drama,더가족 스페셜 0456,2024-08-17,cjenm
+movie_0458,Secret Hero,Action,돌격 프로젝트 0457,2024-11-02,cjenm
+movie_0459,Ice Phoenix,War,작전 연대기 0458,2024-08-15,original
+movie_0460,Family Journey,Documentary,어느 날 현장 연대기 0459,2024-12-09,original
+movie_0461,King Queen,Fantasy,비밀의클립 이야기 0460,2024-12-30,only
+movie_0462,Last Kingdom,Drama,다시기억 스페셜 0461,2024-11-05,original
+movie_0463,Phoenix Day,Comedy,어느 날 웃음 스페셜 0462,2024-09-27,cjenm
+movie_0464,Old House,Sport,어느 날 오늘 시즌 0463,2024-08-16,cjenm
+movie_0465,Battle Fire,Romance,비밀의연애 기록 0464,2024-10-23,other
+movie_0466,Ice Secret,Horror,비밀의저주 기록 0465,2024-09-13,original
+movie_0467,City Fire,Sci-Fi,미래 비긴즈 0466,2024-12-15,cjenm
+movie_0468,King Phoenix,Action,새로운질주 시즌 0467,2024-05-24,only
+movie_0469,Hero Empire,Crime,더증거 스페셜 0468,2024-08-15,other
+movie_0470,Mystery House,Biography,어느 날 삶 리턴즈 0469,2024-07-11,cjenm
+movie_0471,Our Journey,Documentary,어느 날 리포트 비긴즈 0470,2024-08-27,cjenm
+movie_0472,Quest House,Action,어느 날 폭풍 비긴즈 0471,2024-08-07,other
+movie_0473,Journey House,Animation,마지막마법 기록 0472,2024-09-22,other
+movie_0474,Family Quest,Drama,마지막인생 리턴즈 0473,2024-12-26,other
+movie_0475,A Secret,Drama,비밀의청춘 프로젝트 0474,2024-11-29,cjenm
+movie_0476,Bright Storm,Action,폭풍 리턴즈 0475,2024-09-01,other
+movie_0477,Dragon War,Mystery,첫프로젝트 이야기 0476,2024-09-23,original
+movie_0478,House Storm,Comedy,마지막웃음 스페셜 0477,2024-10-15,original
+movie_0479,Little House,Biography,인물 연대기 0478,2024-09-15,cjenm
+movie_0480,Princess Secret,History,어느 날 서사 비긴즈 0479,2024-10-25,other
+movie_0481,Ice Story,War,어느 날 전쟁 시즌 0480,2024-11-17,original
+movie_0482,Love Battle,History,첫왕조 연대기 0481,2024-07-22,other
+movie_0483,War Journey,Family,마지막함께 스페셜 0482,2024-12-02,cjenm
+movie_0484,Secret King,Animation,비밀의상상 스페셜 0483,2024-01-23,cjenm
+movie_0485,Bright Queen,Drama,비밀의청춘 리턴즈 0484,2024-11-17,other
+movie_0486,Story Warrior,Sci-Fi,다시코드 이야기 0485,2024-10-08,other
+movie_0487,Mystery Secret,History,첫왕조 기록 0486,2024-09-10,original
+movie_0488,My Mystery,Thriller,비밀의프로젝트 리턴즈 0487,2024-12-02,other
+movie_0489,New Dream,Sport,마지막오늘 이야기 0488,2024-09-14,other
+movie_0490,A Storm,Sci-Fi,비밀의차원 시즌 0489,2024-10-18,original
+movie_0491,New Warrior,Romance,고백 프로젝트 0490,2024-12-24,other
+movie_0492,Battle Love,Documentary,기록 프로젝트 0491,2024-11-04,other
+movie_0493,Story Fire,War,어느 날 전우 기록 0492,2024-05-17,only
+movie_0494,Last Day,Music,다시이야기 연대기 0493,2024-09-19,other
+movie_0495,City Legend,War,더전우 비긴즈 0494,2024-05-10,other
+movie_0496,Last Mission,Action,어느 날 돌격 시즌 0495,2024-10-22,only
+movie_0497,Big Warrior,Family,오늘 기록 0496,2024-12-30,original
+movie_0498,Day Dragon,Western,더개척 연대기 0497,2024-10-15,other
+movie_0499,Family Story,Western,결투 연대기 0498,2024-11-11,only
+movie_0500,My Journey,Music,새로운오늘 연대기 0499,2024-11-03,original
+movie_0501,Hero Dragon,Comedy,더웃픈 시즌 0500,2024-03-24,only
+movie_0502,Love Legend,Sci-Fi,더프로토콜 연대기 0501,2024-11-24,only
+movie_0503,An Dragon,Horror,마지막그림자 기록 0502,2024-12-10,other
+movie_0504,Princess Queen,Animation,마지막모험 리턴즈 0503,2024-09-27,original
+movie_0505,Phoenix Day,Western,첫총잡이 스페셜 0504,2024-08-24,other
+movie_0506,Love Dream,Drama,다시인생 스페셜 0505,2024-09-05,cjenm
+movie_0507,Old Empire,Thriller,더이야기 연대기 0506,2024-11-15,cjenm
+movie_0508,Last Hero,Adventure,비밀의탐험 스페셜 0507,2025-01-01,other
+movie_0509,Queen House,Western,새로운결투 기록 0508,2024-12-01,other
+movie_0510,Queen Kingdom,History,더왕조 리턴즈 0509,2024-05-26,original
+movie_0511,Dragon Princess,Music,마지막오늘 연대기 0510,2024-12-26,cjenm
+movie_0512,An Princess,Romance,어느 날 연애 비긴즈 0511,2024-09-02,cjenm
+movie_0513,Night Dragon,Drama,가족 스페셜 0512,2024-10-10,other
+movie_0514,Love Love,Animation,마법 시즌 0513,2024-12-22,other
+movie_0515,Secret House,Sci-Fi,마지막코드 시즌 0514,2024-01-17,original
+movie_0516,Dragon Storm,Action,첫전투 비긴즈 0515,2024-07-21,other
+movie_0517,Storm Legend,War,더전선 리턴즈 0516,2024-11-22,only
+movie_0518,A Quest,Horror,어느 날 공포 비긴즈 0517,2024-06-18,other
+movie_0519,Quest House,Fantasy,첫프로젝트 기록 0518,2024-11-30,cjenm
+movie_0520,Big Queen,Biography,마지막인물 비긴즈 0519,2024-12-26,other
+movie_0521,Quest House,Crime,다시비밀 비긴즈 0520,2024-11-25,cjenm
+movie_0522,Big Warrior,Romance,어느 날 사랑 리턴즈 0521,2024-03-14,other
+movie_0523,Mystery War,Fantasy,새로운오늘 스페셜 0522,2024-11-24,original
+movie_0524,Kingdom City,Crime,첫비밀 연대기 0523,2024-12-30,original
+movie_0525,Night Warrior,Animation,마지막친구 프로젝트 0524,2024-12-20,cjenm
+movie_0526,Journey Warrior,Drama,어느 날 청춘 이야기 0525,2024-11-08,other
+movie_0527,Hero Story,Crime,다시비밀 시즌 0526,2024-12-07,other
+movie_0528,Queen Empire,Biography,어느 날 삶 시즌 0527,2024-12-27,cjenm
+movie_0529,Legend Warrior,Music,더이야기 스페셜 0528,2024-12-18,other
+movie_0530,Night Legend,Romance,어느 날 고백 연대기 0529,2024-09-14,cjenm
+movie_0531,Last Night,Western,새로운황야 이야기 0530,2025-01-07,cjenm
+movie_0532,First Phoenix,Adventure,마지막모험 프로젝트 0531,2024-08-02,original
+movie_0533,First Ice,Thriller,더오늘 시즌 0532,2024-12-03,only
+movie_0534,Big Family,War,비밀의전쟁 비긴즈 0533,2024-12-09,cjenm
+movie_0535,Last Phoenix,Romance,새로운사랑 프로젝트 0534,2024-09-30,other
+movie_0536,Bright Hero,Western,첫개척 리턴즈 0535,2024-11-20,other
+movie_0537,New Story,Horror,첫밤 연대기 0536,2024-10-27,only
+movie_0538,Storm Dream,Thriller,더클립 시즌 0537,2024-10-31,original
+movie_0539,Queen Queen,Family,더우리 기록 0538,2024-11-22,other
+movie_0540,Warrior Story,Music,이야기 리턴즈 0539,2024-10-22,other
+movie_0541,Princess Love,Adventure,첫탐험 프로젝트 0540,2024-05-31,other
+movie_0542,Storm Empire,Horror,더밤 이야기 0541,2024-07-14,cjenm
+movie_0543,War Adventure,War,새로운영웅 연대기 0542,2024-11-19,only
+movie_0544,Hero Quest,Comedy,웃겨 연대기 0543,2024-07-28,original
+movie_0545,Little Mission,Western,첫황야 시즌 0544,2024-11-12,cjenm
+movie_0546,New Queen,Adventure,더모험 리턴즈 0545,2024-10-19,other
+movie_0547,Fire Mission,History,새로운서사 비긴즈 0546,2024-10-24,only
+movie_0548,Story Hero,Comedy,새로운웃음 기록 0547,2024-10-05,cjenm
+movie_0549,A Adventure,Crime,비밀의비밀 연대기 0548,2024-12-23,other
+movie_0550,Dark Ice,War,비밀의작전 리턴즈 0549,2024-11-02,other
+movie_0551,Warrior Quest,Mystery,다시오늘 시즌 0550,2024-12-29,other
+movie_0552,A Mission,Romance,설렘 시즌 0551,2024-05-15,cjenm
+movie_0553,Mystery City,Music,다시오늘 스페셜 0552,2024-12-26,cjenm
+movie_0554,Fire Queen,History,마지막연대기 이야기 0553,2024-11-02,other
+movie_0555,Ice Phoenix,Comedy,마지막웃겨 시즌 0554,2024-12-04,cjenm
+movie_0556,Empire Princess,Animation,새로운상상 비긴즈 0555,2024-11-27,other
+movie_0557,Queen Hero,Sport,첫프로젝트 스페셜 0556,2024-11-13,cjenm
+movie_0558,Last Phoenix,Music,비밀의스페셜 비긴즈 0557,2024-11-13,original
+movie_0559,Mystery Dragon,Romance,새로운설렘 리턴즈 0558,2024-11-10,original
+movie_0560,Ice Queen,Adventure,더지도 리턴즈 0559,2024-09-12,cjenm
+movie_0561,Quest Secret,Western,첫서부 이야기 0560,2024-09-23,cjenm
+movie_0562,Legend Queen,Action,어느 날 질주 시즌 0561,2024-08-10,other
+movie_0563,Ice Secret,Sport,어느 날 스페셜 스페셜 0562,2024-12-17,other
+movie_0564,Mystery Mystery,Documentary,비밀의현장 이야기 0563,2024-10-19,only
+movie_0565,Dragon Family,Music,이야기 스페셜 0564,2024-12-26,other
+movie_0566,A City,History,첫궁궐 프로젝트 0565,2024-10-02,only
+movie_0567,Journey Kingdom,Fantasy,비밀의이야기 프로젝트 0566,2024-11-18,only
+movie_0568,Dark Legend,Sci-Fi,비밀의코드 기록 0567,2024-11-07,other
+movie_0569,Legend King,War,어느 날 전쟁 이야기 0568,2024-12-31,cjenm
+movie_0570,Mission Storm,Sci-Fi,마지막코드 비긴즈 0569,2024-12-04,cjenm
+movie_0571,City Princess,Family,더가족 스페셜 0570,2024-03-27,other
+movie_0572,Dream Secret,Documentary,다시다큐 비긴즈 0571,2024-10-01,other
+movie_0573,Fire Kingdom,Action,마지막질주 연대기 0572,2024-04-12,only
+movie_0574,Journey Princess,Comedy,새로운웃음 비긴즈 0573,2024-10-30,original
+movie_0575,City Quest,Drama,새로운마음 스페셜 0574,2024-09-04,cjenm
+movie_0576,Love Kingdom,Crime,새로운증거 스페셜 0575,2024-11-28,cjenm
+movie_0577,Family House,Action,첫돌격 시즌 0576,2024-12-08,other
+movie_0578,Little Phoenix,Sport,어느 날 오늘 스페셜 0577,2024-10-02,only
+movie_0579,Last Story,Documentary,첫기록 프로젝트 0578,2025-01-01,cjenm
+movie_0580,Last Love,Crime,비밀의사건 스페셜 0579,2024-07-06,cjenm
+movie_0581,Ice Kingdom,Sci-Fi,어느 날 미래 비긴즈 0580,2024-11-04,other
+movie_0582,My Queen,Sci-Fi,새로운우주 이야기 0581,2024-12-05,other
+movie_0583,Hero Ice,Comedy,비밀의코미디 리턴즈 0582,2024-12-06,other
+movie_0584,Family Storm,Romance,설렘 비긴즈 0583,2024-12-15,only
+movie_0585,Quest Battle,Comedy,대환장 연대기 0584,2024-07-02,only
+movie_0586,A Adventure,Drama,더인생 시즌 0585,2024-11-20,other
+movie_0587,A Quest,Family,다시우리 스페셜 0586,2024-12-07,only
+movie_0588,Queen Queen,Sci-Fi,첫미래 프로젝트 0587,2024-12-09,cjenm
+movie_0589,Family Adventure,Mystery,어느 날 클립 프로젝트 0588,2024-11-22,other
+movie_0590,Secret City,War,새로운전선 프로젝트 0589,2024-09-02,other
+movie_0591,City Empire,Mystery,새로운스페셜 비긴즈 0590,2024-07-27,other
+movie_0592,King Adventure,Drama,첫기억 기록 0591,2024-12-18,only
+movie_0593,Queen Dragon,Family,어느 날 우리 스페셜 0592,2024-06-22,other
+movie_0594,Journey Day,Drama,청춘 스페셜 0593,2024-10-17,other
+movie_0595,An Empire,Animation,어느 날 친구 기록 0594,2024-10-26,other
+movie_0596,Phoenix Adventure,Documentary,마지막리포트 시즌 0595,2024-05-26,only
+movie_0597,War Journey,Comedy,마지막코미디 이야기 0596,2024-09-09,cjenm
+movie_0598,Queen Quest,Biography,다시실화 이야기 0597,2024-06-03,other
+movie_0599,Quest War,Thriller,어느 날 클립 프로젝트 0598,2024-06-09,other
+movie_0600,Big Adventure,History,다시궁궐 연대기 0599,2024-11-19,other
+movie_0601,Secret Mission,Horror,더공포 기록 0600,2024-06-13,other
+movie_0602,Queen Family,Mystery,다시클립 프로젝트 0601,2024-07-03,other
+movie_0603,Last Kingdom,War,작전 프로젝트 0602,2024-12-11,other
+movie_0604,Empire War,Western,서부 연대기 0603,2024-08-22,other
+movie_0605,An War,Romance,첫사랑 연대기 0604,2024-10-24,other
+movie_0606,Legend Fire,Comedy,첫웃음 이야기 0605,2024-12-23,other
+movie_0607,The War,Romance,사랑 시즌 0606,2024-07-18,other
+movie_0608,King Warrior,Western,비밀의결투 프로젝트 0607,2023-01-14,other
+movie_0609,Old Family,Action,비밀의전투 연대기 0608,2024-12-11,other
+movie_0610,Princess Legend,Thriller,새로운스페셜 연대기 0609,2024-09-09,cjenm
+movie_0611,Big Adventure,Documentary,다큐 리턴즈 0610,2024-12-14,cjenm
+movie_0612,Kingdom Empire,Music,비밀의오늘 스페셜 0611,2024-12-26,only
+movie_0613,Princess Day,Sci-Fi,다시우주 이야기 0612,2024-10-17,other
+movie_0614,Day Day,Comedy,마지막대환장 비긴즈 0613,2023-05-29,other
+movie_0615,An Fire,Crime,첫사건 이야기 0614,2024-12-22,other
+movie_0616,First Ice,Adventure,마지막길 시즌 0615,2024-11-13,other
+movie_0617,Quest War,War,어느 날 영웅 기록 0616,2024-08-03,cjenm
+movie_0618,First Kingdom,War,마지막전우 이야기 0617,2024-11-06,cjenm
+movie_0619,My Story,Crime,새로운비밀 비긴즈 0618,2024-11-09,other
+movie_0620,Dark Secret,Animation,새로운모험 리턴즈 0619,2024-12-26,other
+movie_0621,Battle War,History,다시왕조 연대기 0620,2024-08-04,other
+movie_0622,An Journey,Western,다시황야 스페셜 0621,2024-09-02,cjenm
+movie_0623,Family Day,Family,첫함께 연대기 0622,2024-08-29,only
+movie_0624,Mystery Mystery,Romance,어느 날 고백 리턴즈 0623,2024-10-06,other
+movie_0625,Day Night,Documentary,어느 날 현장 기록 0624,2024-07-31,only
+movie_0626,Journey Mystery,Western,더결투 이야기 0625,2024-11-20,only
+movie_0627,Love Legend,Western,비밀의총잡이 스페셜 0626,2024-12-23,other
+movie_0628,Phoenix Story,Music,새로운스페셜 기록 0627,2024-12-18,only
+movie_0629,Adventure Secret,Adventure,더지도 기록 0628,2024-11-05,only
+movie_0630,War Secret,Sport,마지막프로젝트 리턴즈 0629,2024-07-30,other
+movie_0631,Warrior Kingdom,War,첫전쟁 스페셜 0630,2024-10-25,only
+movie_0632,Day Dragon,Adventure,모험 기록 0631,2024-10-12,other
+movie_0633,Warrior Ice,Biography,다시전기 연대기 0632,2024-12-16,only
+movie_0634,War Phoenix,Action,마지막폭풍 리턴즈 0633,2024-11-28,only
+movie_0635,Dream Family,Comedy,웃픈 연대기 0634,2024-10-26,other
+movie_0636,Last Mission,Music,첫오늘 이야기 0635,2024-10-15,other
+movie_0637,Old Battle,Family,비밀의함께 시즌 0636,2024-12-13,only
+movie_0638,Quest Family,Romance,더고백 비긴즈 0637,2024-10-29,other
+movie_0639,Quest Fire,Sport,마지막오늘 비긴즈 0638,2024-09-15,only
+movie_0640,Warrior Legend,Horror,첫공포 프로젝트 0639,2024-10-16,original
+movie_0641,First Dream,Thriller,마지막프로젝트 비긴즈 0640,2025-01-04,other
+movie_0642,Hero Dragon,Romance,첫사랑 스페셜 0641,2024-11-08,other
+movie_0643,Fire Phoenix,Drama,더청춘 프로젝트 0642,2024-11-15,other
+movie_0644,Kingdom Hero,Mystery,첫이야기 이야기 0643,2024-07-26,cjenm
+movie_0645,Last Secret,Adventure,어느 날 모험 시즌 0644,2024-07-10,other
+movie_0646,King Adventure,Fantasy,프로젝트 시즌 0645,2024-11-13,only
+movie_0647,Story Journey,Music,어느 날 프로젝트 리턴즈 0646,2024-05-16,other
+movie_0648,An Ice,Horror,첫공포 프로젝트 0647,2024-12-31,only
+movie_0649,King Battle,War,더전선 기록 0648,2024-12-17,other
+movie_0650,First Kingdom,Adventure,모험 프로젝트 0649,2024-11-13,other
+movie_0651,Phoenix Day,Documentary,새로운기록 비긴즈 0650,2024-10-21,other
+movie_0652,Our Night,History,새로운서사 리턴즈 0651,2024-11-09,original
+movie_0653,House Story,Music,어느 날 프로젝트 프로젝트 0652,2024-11-10,cjenm
+movie_0654,Adventure Legend,Drama,더기억 연대기 0653,2024-11-14,cjenm
+movie_0655,Hero Kingdom,Fantasy,마지막오늘 스페셜 0654,2024-04-01,other
+movie_0656,Phoenix Ice,Animation,더친구 스페셜 0655,2024-10-05,cjenm
+movie_0657,Battle Queen,Romance,연애 프로젝트 0656,2024-12-30,only
+movie_0658,Empire Love,Mystery,다시스페셜 기록 0657,2024-10-08,cjenm
+movie_0659,Little Night,Sci-Fi,더우주 시즌 0658,2024-09-05,other
+movie_0660,Fire Secret,Adventure,마지막지도 이야기 0659,2024-12-17,cjenm
+movie_0661,House Night,Horror,어느 날 괴담 리턴즈 0660,2024-12-11,other
+movie_0662,Bright Family,Documentary,더리포트 이야기 0661,2024-10-03,other
+movie_0663,Phoenix Legend,Biography,새로운실화 비긴즈 0662,2024-09-30,cjenm
+movie_0664,An Princess,History,새로운역사 기록 0663,2024-11-21,only
+movie_0665,Legend Dragon,Biography,인물 리턴즈 0664,2024-01-01,other
+movie_0666,Day City,Adventure,다시탐험 이야기 0665,2024-10-06,other
+movie_0667,Empire Story,Sci-Fi,더코드 시즌 0666,2024-12-18,other
+movie_0668,Day Journey,Crime,마지막비밀 스페셜 0667,2024-11-01,other
+movie_0669,Dark Phoenix,Biography,비밀의인물 이야기 0668,2024-12-16,only
+movie_0670,Phoenix Queen,Drama,첫인생 이야기 0669,2024-10-09,other
+movie_0671,War Storm,Animation,마법 시즌 0670,2024-11-20,other
+movie_0672,Kingdom Dream,Biography,다시인물 이야기 0671,2024-05-07,other
+movie_0673,Fire Hero,Fantasy,새로운스페셜 비긴즈 0672,2024-08-11,cjenm
+movie_0674,Storm Night,Adventure,새로운모험 연대기 0673,2024-08-18,original
+movie_0675,Phoenix Princess,Action,더전투 이야기 0674,2024-10-08,cjenm
+movie_0676,Dream Hero,Adventure,더여정 시즌 0675,2024-07-23,cjenm
+movie_0677,Legend Journey,Adventure,마지막모험 연대기 0676,2024-10-01,other
+movie_0678,Secret Legend,Documentary,새로운다큐 시즌 0677,2024-12-25,cjenm
+movie_0679,Dark Dragon,Horror,마지막밤 리턴즈 0678,2024-07-20,other
+movie_0680,Battle Dream,Thriller,첫이야기 기록 0679,2024-11-03,other
+movie_0681,A Family,Thriller,어느 날 이야기 스페셜 0680,2024-10-21,only
+movie_0682,Old Queen,Romance,어느 날 설렘 스페셜 0681,2024-12-14,other
+movie_0683,Little Dream,Animation,새로운모험 스페셜 0682,2024-12-17,cjenm
+movie_0684,Dragon Mission,War,어느 날 작전 이야기 0683,2024-10-09,other
+movie_0685,Family Mystery,Romance,첫고백 기록 0684,2024-09-15,other
+movie_0686,Night Princess,History,마지막궁궐 연대기 0685,2024-09-06,other
+movie_0687,Adventure Warrior,Crime,첫증거 시즌 0686,2024-07-03,other
+movie_0688,Battle Storm,Animation,더모험 기록 0687,2024-10-20,other
+movie_0689,City Story,Western,어느 날 총잡이 시즌 0688,2024-08-16,other
+movie_0690,Secret Family,Romance,어느 날 연애 시즌 0689,2024-11-03,cjenm
+movie_0691,Dream Adventure,Fantasy,첫오늘 연대기 0690,2024-12-22,other
+movie_0692,Little Phoenix,Fantasy,더클립 이야기 0691,2024-09-16,cjenm
+movie_0693,Storm Kingdom,Crime,마지막검은 리턴즈 0692,2024-10-03,only
+movie_0694,Kingdom Day,Action,어느 날 질주 비긴즈 0693,2024-10-09,other
+movie_0695,Storm Journey,Mystery,다시오늘 시즌 0694,2024-11-20,cjenm
+movie_0696,House Empire,Biography,전기 비긴즈 0695,2024-11-13,other
+movie_0697,Journey Fire,Music,새로운프로젝트 이야기 0696,2024-08-03,only
+movie_0698,A Adventure,Western,마지막결투 연대기 0697,2024-11-30,other
+movie_0699,Our King,Western,어느 날 결투 비긴즈 0698,2024-08-02,cjenm
+movie_0700,A Secret,Biography,마지막실화 시즌 0699,2024-12-15,cjenm
+movie_0701,Adventure Mission,Animation,마지막상상 리턴즈 0700,2024-07-04,other
+movie_0702,Mystery Legend,Fantasy,마지막프로젝트 이야기 0701,2024-12-13,cjenm
+movie_0703,Mystery Legend,History,첫왕조 이야기 0702,2024-12-13,cjenm
+movie_0704,Dark Mystery,Western,마지막개척 리턴즈 0703,2024-02-18,original
+movie_0705,House Secret,Romance,새로운첫사랑 프로젝트 0704,2024-10-24,only
+movie_0706,New City,Drama,어느 날 청춘 리턴즈 0705,2024-10-12,cjenm
+movie_0707,Fire Warrior,Romance,다시고백 이야기 0706,2024-12-21,other
+movie_0708,My Love,Music,더오늘 리턴즈 0707,2024-10-19,only
+movie_0709,Kingdom Princess,Sci-Fi,더코드 스페셜 0708,2024-09-27,only
+movie_0710,Little Warrior,Sci-Fi,비밀의코드 스페셜 0709,2024-11-19,cjenm
+movie_0711,Empire Kingdom,Drama,첫마음 이야기 0710,2024-12-26,only
+movie_0712,A Day,Family,비밀의하루 리턴즈 0711,2024-10-09,other
+movie_0713,Princess Quest,War,첫작전 프로젝트 0712,2024-08-15,other
+movie_0714,House Dream,Adventure,여정 비긴즈 0713,2024-09-20,other
+movie_0715,City Mystery,Horror,공포 이야기 0714,2024-12-14,original
+movie_0716,Love Battle,War,비밀의전우 프로젝트 0715,2024-11-13,other
+movie_0717,Queen Legend,Sport,마지막이야기 비긴즈 0716,2024-08-18,original
+movie_0718,Mystery Dream,Sci-Fi,프로토콜 비긴즈 0717,2024-12-31,other
+movie_0719,Warrior Dream,Sci-Fi,다시코드 프로젝트 0718,2024-10-17,cjenm
+movie_0720,Legend War,Western,첫서부 이야기 0719,2024-11-25,only
+movie_0721,Dream Dream,Horror,마지막밤 연대기 0720,2024-08-24,original
+movie_0722,Battle Mission,Romance,고백 스페셜 0721,2024-12-22,other
+movie_0723,House Day,Thriller,첫프로젝트 기록 0722,2024-10-29,other
+movie_0724,War Story,War,더작전 스페셜 0723,2024-06-20,cjenm
+movie_0725,Old King,Music,어느 날 오늘 연대기 0724,2025-01-01,other
+movie_0726,The Mystery,Action,마지막폭풍 이야기 0725,2024-08-19,original
+movie_0727,Last Journey,Western,어느 날 서부 프로젝트 0726,2024-12-12,only
+movie_0728,Phoenix Day,Crime,어느 날 검은 비긴즈 0727,2024-06-22,only
+movie_0729,Big Mission,Sci-Fi,더프로토콜 비긴즈 0728,2024-11-26,other
+movie_0730,Adventure Fire,Comedy,어느 날 웃겨 기록 0729,2024-09-18,cjenm
+movie_0731,House Mission,Documentary,어느 날 기록 리턴즈 0730,2024-04-21,only
+movie_0732,Legend Ice,Mystery,스페셜 프로젝트 0731,2024-11-21,other
+movie_0733,Story Love,Animation,마지막마법 시즌 0732,2024-09-06,cjenm
+movie_0734,Queen Warrior,Adventure,비밀의모험 리턴즈 0733,2024-11-27,only
+movie_0735,Princess Hero,Fantasy,마지막프로젝트 프로젝트 0734,2024-01-17,other
+movie_0736,Mystery Legend,Music,어느 날 스페셜 이야기 0735,2024-10-27,other
+movie_0737,Legend Love,Comedy,더웃음 이야기 0736,2024-11-01,only
+movie_0738,Mission Storm,Animation,다시친구 기록 0737,2024-10-16,other
+movie_0739,Love Warrior,Action,더돌격 리턴즈 0738,2024-11-17,original
+movie_0740,City Mystery,Animation,비밀의친구 이야기 0739,2024-11-21,other
+movie_0741,Our Love,Mystery,첫오늘 이야기 0740,2024-07-29,cjenm
+movie_0742,Battle City,Thriller,마지막오늘 프로젝트 0741,2024-11-04,cjenm
+movie_0743,Phoenix City,Documentary,비밀의다큐 비긴즈 0742,2024-12-19,original
+movie_0744,A Adventure,Documentary,마지막기록 연대기 0743,2024-11-11,original
+movie_0745,Warrior Mystery,Music,마지막이야기 연대기 0744,2024-10-19,only
+movie_0746,Fire Journey,Music,다시이야기 연대기 0745,2024-12-30,cjenm
+movie_0747,Last King,Biography,어느 날 전기 프로젝트 0746,2024-12-09,original
+movie_0748,War Love,Western,더총잡이 스페셜 0747,2024-09-01,cjenm
+movie_0749,Queen Princess,Documentary,어느 날 다큐 연대기 0748,2025-01-02,cjenm
+movie_0750,City Dream,History,다시왕조 연대기 0749,2024-09-11,only
+movie_0751,City Secret,Animation,다시꿈 프로젝트 0750,2024-12-18,other
+movie_0752,House Story,Horror,더공포 기록 0751,2024-11-11,cjenm
+movie_0753,Kingdom Fire,Action,마지막불꽃 비긴즈 0752,2024-11-30,only
+movie_0754,Kingdom Princess,Western,어느 날 결투 이야기 0753,2024-08-06,other
+movie_0755,Adventure Princess,Action,어느 날 질주 비긴즈 0754,2024-04-06,original
+movie_0756,Dark Day,Fantasy,마지막프로젝트 비긴즈 0755,2024-10-31,only
+movie_0757,Old Night,War,첫전선 연대기 0756,2024-12-24,other
+movie_0758,Quest Mystery,Sport,클립 기록 0757,2024-12-23,cjenm
+movie_0759,Legend King,Action,비밀의질주 스페셜 0758,2024-12-05,cjenm
+movie_0760,Empire Love,Sci-Fi,새로운프로토콜 기록 0759,2024-08-15,other
+movie_0761,Dragon Day,Sport,어느 날 프로젝트 리턴즈 0760,2024-10-05,other
+movie_0762,A Mystery,Family,첫가족 프로젝트 0761,2024-12-25,other
+movie_0763,My Dragon,Comedy,첫웃겨 연대기 0762,2024-12-31,other
+movie_0764,House Day,Biography,전기 비긴즈 0763,2024-12-01,only
+movie_0765,War Phoenix,Documentary,마지막기록 비긴즈 0764,2024-04-19,only
+movie_0766,Mission Empire,Fantasy,다시이야기 스페셜 0765,2024-06-25,cjenm
+movie_0767,Old Fire,Mystery,마지막스페셜 프로젝트 0766,2024-11-24,other
+movie_0768,Hero Secret,Biography,새로운삶 이야기 0767,2024-08-10,other
+movie_0769,King Day,Music,클립 시즌 0768,2024-10-07,other
+movie_0770,Kingdom Dream,Family,새로운가족 비긴즈 0769,2024-11-07,cjenm
+movie_0771,First Quest,Horror,어느 날 밤 연대기 0770,2024-11-10,other
+movie_0772,The Story,Thriller,마지막이야기 연대기 0771,2024-12-24,cjenm
+movie_0773,Dragon Princess,Mystery,마지막이야기 스페셜 0772,2024-11-18,other
+movie_0774,War Adventure,War,더전선 시즌 0773,2024-11-12,other
+movie_0775,An Empire,Biography,더실화 기록 0774,2024-11-10,other
+movie_0776,My Quest,Sport,더클립 비긴즈 0775,2024-05-16,cjenm
+movie_0777,House Dragon,Comedy,어느 날 웃음 시즌 0776,2024-11-29,original
+movie_0778,Princess House,History,어느 날 연대기 연대기 0777,2024-10-18,only
+movie_0779,New Family,Family,함께 스페셜 0778,2024-10-23,only
+movie_0780,Dream Warrior,Romance,더사랑 스페셜 0779,2024-12-25,original
+movie_0781,First House,War,영웅 리턴즈 0780,2024-10-26,other
+movie_0782,Last Princess,Crime,더추적 연대기 0781,2024-12-28,only
+movie_0783,Love Journey,Horror,다시밤 기록 0782,2024-11-11,only
+movie_0784,Kingdom Kingdom,Adventure,새로운지도 스페셜 0783,2024-10-02,original
+movie_0785,Dragon Family,Adventure,다시길 시즌 0784,2024-11-06,original
+movie_0786,War House,Comedy,마지막웃음 연대기 0785,2024-12-29,only
+movie_0787,An Family,Animation,새로운마법 기록 0786,2024-09-09,other
+movie_0788,Day Warrior,Documentary,새로운현장 연대기 0787,2024-09-03,original
+movie_0789,Adventure Quest,Action,첫돌격 이야기 0788,2024-12-26,other
+movie_0790,An Night,War,비밀의전선 시즌 0789,2025-01-02,original
+movie_0791,City Fire,Documentary,비밀의탐사 이야기 0790,2024-10-19,other
+movie_0792,Princess King,Biography,첫실화 리턴즈 0791,2024-08-24,other
+movie_0793,Bright Secret,Sport,다시스페셜 프로젝트 0792,2024-12-06,other
+movie_0794,Warrior War,Sport,첫클립 연대기 0793,2024-04-24,other
+movie_0795,Big Fire,Documentary,마지막현장 기록 0794,2024-10-06,other
+movie_0796,Bright Mystery,War,첫전쟁 기록 0795,2024-09-26,cjenm
+movie_0797,Fire Night,Animation,어느 날 모험 연대기 0796,2025-01-01,other
+movie_0798,Queen Adventure,Adventure,첫모험 시즌 0797,2024-09-12,cjenm
+movie_0799,Fire Secret,Crime,다시검은 비긴즈 0798,2024-12-05,only
+movie_0800,House Fire,Horror,새로운밤 리턴즈 0799,2024-11-09,other
+movie_0801,House Legend,Thriller,첫스페셜 이야기 0800,2024-12-21,cjenm
+movie_0802,Day Dragon,Adventure,마지막지도 프로젝트 0801,2024-09-16,cjenm
+movie_0803,Story Mystery,Action,다시전투 연대기 0802,2024-12-11,cjenm
+movie_0804,Battle Queen,Mystery,스페셜 리턴즈 0803,2024-08-06,other
+movie_0805,Family Kingdom,Action,새로운불꽃 연대기 0804,2024-04-20,only
+movie_0806,Dream Love,Mystery,더오늘 리턴즈 0805,2024-11-27,only
+movie_0807,Mystery Quest,Sci-Fi,더차원 이야기 0806,2024-07-11,other
+movie_0808,Ice Storm,Fantasy,새로운오늘 프로젝트 0807,2024-08-01,cjenm
+movie_0809,Kingdom Dragon,Music,비밀의스페셜 기록 0808,2024-11-24,other
+movie_0810,Love Battle,Documentary,마지막탐사 연대기 0809,2024-12-18,only
+movie_0811,Battle King,Thriller,다시클립 프로젝트 0810,2024-09-11,other
+movie_0812,Quest Night,Music,다시이야기 비긴즈 0811,2024-04-08,only
+movie_0813,Secret Night,Documentary,다시현장 비긴즈 0812,2024-12-10,other
+movie_0814,Adventure Legend,Adventure,여정 연대기 0813,2024-12-22,other
+movie_0815,Story Battle,Thriller,어느 날 클립 비긴즈 0814,2024-10-15,only
+movie_0816,Legend Empire,Western,비밀의총잡이 프로젝트 0815,2024-08-03,cjenm
+movie_0817,Story Legend,Drama,어느 날 인생 기록 0816,2024-10-28,cjenm
+movie_0818,Our King,History,더궁궐 기록 0817,2024-09-11,cjenm
+movie_0819,Night House,Horror,첫밤 리턴즈 0818,2024-09-24,other
+movie_0820,Fire Phoenix,Fantasy,새로운오늘 스페셜 0819,2024-11-22,original
+movie_0821,Hero King,Sci-Fi,어느 날 우주 비긴즈 0820,2024-07-15,cjenm
+movie_0822,Family Mystery,War,전쟁 연대기 0821,2025-01-04,other
+movie_0823,Adventure Ice,Comedy,더웃음 스페셜 0822,2024-12-30,other
+movie_0824,War Queen,Comedy,첫코미디 연대기 0823,2024-12-10,original
+movie_0825,Warrior Story,Romance,마지막고백 기록 0824,2024-10-08,other
+movie_0826,Dark Adventure,Adventure,새로운길 비긴즈 0825,2024-12-23,original
+movie_0827,Mystery House,Family,첫우리 시즌 0826,2024-08-09,other
+movie_0828,My Fire,Sport,새로운스페셜 연대기 0827,2024-11-15,cjenm
+movie_0829,A Dream,Sci-Fi,어느 날 프로토콜 연대기 0828,2024-10-31,other
+movie_0830,Storm Mystery,Comedy,어느 날 웃음 프로젝트 0829,2024-12-09,other
+movie_0831,Quest Hero,Fantasy,더이야기 연대기 0830,2024-11-30,cjenm
+movie_0832,Dark Princess,Mystery,더프로젝트 연대기 0831,2024-11-12,other
+movie_0833,Mystery Mystery,Biography,새로운삶 프로젝트 0832,2024-12-09,other
+movie_0834,The Mission,Crime,첫추적 연대기 0833,2024-10-11,other
+movie_0835,Bright Ice,Mystery,첫이야기 시즌 0834,2024-11-29,only
+movie_0836,Our Legend,War,다시작전 비긴즈 0835,2024-10-28,other
+movie_0837,Princess Adventure,Action,비밀의불꽃 리턴즈 0836,2025-01-03,other
+movie_0838,Adventure Hero,Western,더총잡이 프로젝트 0837,2024-10-01,other
+movie_0839,Journey War,War,다시전쟁 연대기 0838,2024-09-15,only
+movie_0840,Family Kingdom,Adventure,어느 날 여정 시즌 0839,2024-11-29,only
+movie_0841,Day Mystery,Mystery,어느 날 이야기 기록 0840,2024-10-02,other
+movie_0842,Storm Mission,Action,어느 날 돌격 시즌 0841,2024-07-14,other
+movie_0843,War Fire,Comedy,새로운코미디 시즌 0842,2024-08-16,other
+movie_0844,Journey Story,Comedy,더웃음 연대기 0843,2024-11-24,only
+movie_0845,Little House,Thriller,어느 날 이야기 프로젝트 0844,2024-11-08,other
+movie_0846,Storm Family,Action,첫돌격 프로젝트 0845,2024-11-13,only
+movie_0847,Mystery War,Action,더전투 리턴즈 0846,2024-11-27,only
+movie_0848,Dark Fire,Biography,첫전기 비긴즈 0847,2024-10-29,only
+movie_0849,House King,Adventure,더길 기록 0848,2024-12-12,cjenm
+movie_0850,Mystery City,Horror,새로운괴담 프로젝트 0849,2024-10-21,other
+movie_0851,City Battle,Fantasy,더프로젝트 프로젝트 0850,2025-01-06,only
+movie_0852,Dream Hero,Family,첫하루 기록 0851,2024-08-28,only
+movie_0853,Family Journey,Fantasy,어느 날 클립 비긴즈 0852,2024-10-31,other
+movie_0854,Dark House,Fantasy,마지막오늘 연대기 0853,2024-12-09,cjenm
+movie_0855,First Night,Animation,어느 날 친구 기록 0854,2024-09-18,cjenm
+movie_0856,Big King,Fantasy,더프로젝트 연대기 0855,2024-11-15,cjenm
+movie_0857,Day Warrior,Sport,첫프로젝트 이야기 0856,2024-12-06,cjenm
+movie_0858,Fire Mystery,Horror,어느 날 공포 시즌 0857,2024-09-10,original
+movie_0859,First Mission,Action,더돌격 리턴즈 0858,2024-11-20,only
+movie_0860,Our Love,Animation,비밀의모험 시즌 0859,2024-11-25,only
+movie_0861,Night Journey,Western,어느 날 개척 연대기 0860,2024-10-24,only
+movie_0862,Day Quest,Family,비밀의우리 기록 0861,2024-10-16,only
+movie_0863,Fire House,Music,더오늘 리턴즈 0862,2024-11-24,other
+movie_0864,Dragon Hero,Sci-Fi,어느 날 코드 기록 0863,2024-12-25,only
+movie_0865,Dark Mission,Sport,첫클립 연대기 0864,2024-12-06,cjenm
+movie_0866,Love King,Comedy,웃음 리턴즈 0865,2024-10-02,original
+movie_0867,Story Legend,Mystery,첫프로젝트 스페셜 0866,2024-11-24,other
+movie_0868,War Empire,Crime,첫증거 이야기 0867,2024-10-07,cjenm
+movie_0869,Old City,Animation,비밀의모험 프로젝트 0868,2024-12-23,other
+movie_0870,Little Phoenix,Music,마지막오늘 이야기 0869,2024-12-29,cjenm
+movie_0871,Princess City,Animation,마지막모험 비긴즈 0870,2024-11-24,original
+movie_0872,Journey Journey,Action,돌격 시즌 0871,2024-11-20,other
+movie_0873,The City,Western,새로운총잡이 기록 0872,2024-12-24,other
+movie_0874,Family Legend,Romance,첫연애 프로젝트 0873,2024-10-22,only
+movie_0875,Empire Dragon,Fantasy,새로운이야기 리턴즈 0874,2024-09-03,other
+movie_0876,Mystery War,Action,비밀의질주 이야기 0875,2024-12-05,other
+movie_0877,Family Dragon,Sci-Fi,마지막우주 리턴즈 0876,2024-05-15,only
+movie_0878,Mystery Battle,Animation,마지막모험 연대기 0877,2024-08-19,other
+movie_0879,Storm Fire,Action,첫전투 스페셜 0878,2024-10-18,original
+movie_0880,My Dragon,Drama,어느 날 인생 비긴즈 0879,2024-12-08,cjenm
+movie_0881,Adventure Dream,Comedy,마지막코미디 리턴즈 0880,2024-11-01,only
+movie_0882,Little Mystery,Horror,첫밤 스페셜 0881,2024-11-26,other
+movie_0883,An Mission,Mystery,이야기 시즌 0882,2023-10-15,original
+movie_0884,Queen King,Animation,다시마법 프로젝트 0883,2024-09-28,other
+movie_0885,Battle Fire,Comedy,더웃음 스페셜 0884,2024-09-20,cjenm
+movie_0886,Empire King,Adventure,다시모험 리턴즈 0885,2024-07-28,only
+movie_0887,Warrior Phoenix,Music,어느 날 프로젝트 프로젝트 0886,2024-03-22,other
+movie_0888,Adventure Phoenix,Documentary,새로운탐사 프로젝트 0887,2024-11-11,other
+movie_0889,Love Princess,Crime,새로운증거 스페셜 0888,2024-11-03,other
+movie_0890,War Fire,Music,어느 날 프로젝트 시즌 0889,2024-08-05,cjenm
+movie_0891,Ice House,Western,더서부 연대기 0890,2024-09-03,other
+movie_0892,Dark Dragon,Documentary,마지막현장 리턴즈 0891,2024-12-07,other
+movie_0893,Love Mission,Adventure,더길 연대기 0892,2024-06-10,original
+movie_0894,Mystery Secret,Thriller,스페셜 시즌 0893,2024-12-09,other
+movie_0895,House War,Animation,새로운마법 비긴즈 0894,2024-11-23,other
+movie_0896,Phoenix Hero,Romance,새로운첫사랑 기록 0895,2024-11-17,other
+movie_0897,First Storm,Western,어느 날 결투 비긴즈 0896,2024-10-02,cjenm
+movie_0898,First Family,Adventure,마지막모험 리턴즈 0897,2024-11-07,cjenm
+movie_0899,City Phoenix,History,어느 날 왕조 프로젝트 0898,2024-12-31,other
+movie_0900,Ice Love,Drama,청춘 연대기 0899,2024-07-20,other
+movie_0901,First Hero,War,더전선 리턴즈 0900,2024-11-14,cjenm
+movie_0902,Mystery Ice,Action,돌격 리턴즈 0901,2024-11-04,other
+movie_0903,Secret Battle,Animation,꿈 스페셜 0902,2024-10-21,original
+movie_0904,Battle Mission,Biography,실화 스페셜 0903,2024-12-19,other
+movie_0905,Dark Quest,Adventure,마지막지도 스페셜 0904,2024-12-27,cjenm
+movie_0906,Mystery Mystery,Fantasy,마지막오늘 비긴즈 0905,2024-12-15,other
+movie_0907,Phoenix Secret,Romance,새로운설렘 프로젝트 0906,2024-09-09,other
+movie_0908,Love War,Sport,첫오늘 이야기 0907,2025-01-02,other
+movie_0909,Day Mission,Romance,첫설렘 리턴즈 0908,2024-06-24,only
+movie_0910,Night Battle,Thriller,오늘 스페셜 0909,2024-09-15,original
+movie_0911,Bright Dragon,Thriller,첫프로젝트 이야기 0910,2024-04-09,original
+movie_0912,Mission Night,Adventure,비밀의여정 리턴즈 0911,2024-12-31,only
+movie_0913,Empire Secret,Crime,첫검은 시즌 0912,2024-12-07,only
+movie_0914,Love Secret,Music,비밀의스페셜 리턴즈 0913,2024-12-29,only
+movie_0915,Journey Adventure,Romance,첫사랑 이야기 0914,2022-11-15,only
+movie_0916,Adventure Dream,Documentary,새로운현장 연대기 0915,2024-12-05,only
+movie_0917,Adventure Ice,Adventure,비밀의길 기록 0916,2024-06-02,other
+movie_0918,Secret Phoenix,Sport,더스페셜 프로젝트 0917,2024-10-05,other
+movie_0919,The War,War,더영웅 스페셜 0918,2024-10-23,other
+movie_0920,Story Warrior,Music,더프로젝트 이야기 0919,2024-09-25,original
+movie_0921,Phoenix House,War,더전쟁 기록 0920,2024-08-25,only
+movie_0922,Our Story,Crime,첫사건 시즌 0921,2024-04-15,other
+movie_0923,Last Phoenix,Adventure,첫모험 프로젝트 0922,2024-11-27,only
+movie_0924,Fire King,Drama,비밀의마음 스페셜 0923,2024-07-17,other
+movie_0925,Quest Princess,Mystery,비밀의클립 비긴즈 0924,2024-06-07,cjenm
+movie_0926,Family Queen,Sci-Fi,우주 시즌 0925,2024-12-13,other
+movie_0927,Fire Ice,Sci-Fi,더미래 프로젝트 0926,2024-09-08,only
+movie_0928,Little Dream,Horror,다시저주 프로젝트 0927,2024-12-04,other
+movie_0929,Fire King,Adventure,더길 이야기 0928,2024-10-08,original
+movie_0930,Dark Day,Animation,어느 날 모험 리턴즈 0929,2024-10-11,other
+movie_0931,Family King,War,어느 날 전선 비긴즈 0930,2024-08-16,other
+movie_0932,Hero Empire,Sci-Fi,다시미래 스페셜 0931,2024-09-11,original
+movie_0933,Princess Family,Horror,마지막그림자 이야기 0932,2024-11-29,other
+movie_0934,Kingdom House,Comedy,코미디 이야기 0933,2024-10-01,other
+movie_0935,Day Adventure,Thriller,프로젝트 시즌 0934,2024-10-16,other
+movie_0936,Quest Empire,Family,우리 연대기 0935,2024-11-11,other
+movie_0937,Journey House,History,어느 날 궁궐 프로젝트 0936,2024-09-21,other
+movie_0938,Old House,Crime,추적 비긴즈 0937,2024-12-16,other
+movie_0939,Dragon War,Crime,첫검은 시즌 0938,2024-11-24,only
+movie_0940,Fire Warrior,Documentary,다시리포트 기록 0939,2025-01-03,other
+movie_0941,A Mystery,War,다시작전 리턴즈 0940,2024-07-25,only
+movie_0942,King Legend,Mystery,첫프로젝트 기록 0941,2024-07-13,only
+movie_0943,Dream Adventure,Music,다시오늘 스페셜 0942,2024-12-11,other
+movie_0944,Dark Love,Sci-Fi,어느 날 프로토콜 비긴즈 0943,2024-07-20,only
+movie_0945,Secret Ice,Sport,어느 날 클립 스페셜 0944,2024-11-23,other
+movie_0946,Quest Warrior,Comedy,다시코미디 시즌 0945,2024-11-18,cjenm
+movie_0947,Secret Mission,Biography,전기 연대기 0946,2024-12-28,only
+movie_0948,Little Night,History,어느 날 역사 이야기 0947,2023-11-19,other
+movie_0949,Warrior Adventure,History,마지막서사 프로젝트 0948,2024-12-30,other
+movie_0950,War Day,Thriller,새로운이야기 시즌 0949,2024-08-22,other
+movie_0951,Big House,Horror,새로운밤 시즌 0950,2024-12-20,cjenm
+movie_0952,Queen Day,Western,첫총잡이 리턴즈 0951,2024-10-01,other
+movie_0953,Bright Love,Drama,더마음 리턴즈 0952,2024-10-16,only
+movie_0954,Mission Adventure,Comedy,어느 날 웃겨 이야기 0953,2024-11-05,other
+movie_0955,Queen Empire,Fantasy,클립 시즌 0954,2024-09-04,cjenm
+movie_0956,A Love,Adventure,더여정 스페셜 0955,2024-12-09,other
+movie_0957,Storm Love,Sci-Fi,마지막코드 시즌 0956,2025-01-02,cjenm
+movie_0958,Story Warrior,Thriller,새로운프로젝트 시즌 0957,2024-12-16,only
+movie_0959,A Dragon,Animation,비밀의상상 비긴즈 0958,2024-10-28,only
+movie_0960,Quest Quest,Animation,새로운상상 프로젝트 0959,2024-09-17,original
+movie_0961,Story Mystery,Fantasy,더클립 프로젝트 0960,2023-12-10,other
+movie_0962,City Ice,History,새로운궁궐 기록 0961,2024-12-02,original
+movie_0963,War Dream,Sci-Fi,첫우주 비긴즈 0962,2024-11-25,other
+movie_0964,Journey Empire,Crime,비밀의비밀 리턴즈 0963,2024-12-30,other
+movie_0965,Empire Legend,Sport,비밀의프로젝트 시즌 0964,2024-08-29,only
+movie_0966,A Adventure,Crime,증거 이야기 0965,2024-11-29,cjenm
+movie_0967,Our Adventure,Adventure,다시여정 스페셜 0966,2024-07-21,only
+movie_0968,First Queen,Fantasy,스페셜 연대기 0967,2024-11-20,other
+movie_0969,Adventure Story,Crime,첫증거 시즌 0968,2024-12-06,original
+movie_0970,House King,Biography,다시전기 연대기 0969,2024-10-28,original
+movie_0971,Warrior Empire,Romance,새로운사랑 비긴즈 0970,2024-12-31,cjenm
+movie_0972,Bright Mystery,Sport,마지막이야기 연대기 0971,2024-11-17,only
+movie_0973,Dark Kingdom,Romance,첫고백 시즌 0972,2024-03-15,original
+movie_0974,Queen Storm,Crime,첫비밀 비긴즈 0973,2024-11-25,cjenm
+movie_0975,Quest War,History,더서사 비긴즈 0974,2024-12-14,cjenm
+movie_0976,Dragon Journey,Adventure,어느 날 탐험 스페셜 0975,2024-02-19,other
+movie_0977,Little Secret,Family,더함께 시즌 0976,2024-10-14,cjenm
+movie_0978,City Night,Romance,더설렘 리턴즈 0977,2024-11-09,other
+movie_0979,Story Legend,War,마지막작전 이야기 0978,2024-10-03,cjenm
+movie_0980,War Battle,Adventure,어느 날 길 프로젝트 0979,2024-06-26,only
+movie_0981,First Dragon,Biography,첫인물 프로젝트 0980,2024-12-07,original
+movie_0982,Storm Dream,Horror,마지막괴담 연대기 0981,2024-12-02,only
+movie_0983,Day Legend,Action,더폭풍 연대기 0982,2024-08-18,other
+movie_0984,Family Day,History,다시역사 이야기 0983,2024-09-30,other
+movie_0985,Queen Night,Sci-Fi,새로운우주 이야기 0984,2024-05-31,cjenm
+movie_0986,Love Day,Horror,새로운괴담 시즌 0985,2024-07-31,other
+movie_0987,Phoenix Storm,Horror,새로운공포 기록 0986,2024-11-26,original
+movie_0988,Little Journey,War,새로운전우 프로젝트 0987,2024-12-19,other
+movie_0989,Empire Family,Biography,다시삶 리턴즈 0988,2024-02-21,other
+movie_0990,Big Quest,Mystery,비밀의이야기 스페셜 0989,2024-10-12,other
+movie_0991,Last Queen,Drama,마지막인생 연대기 0990,2024-10-06,other
+movie_0992,The Love,Horror,다시밤 스페셜 0991,2024-11-29,other
+movie_0993,Old Phoenix,Western,첫결투 시즌 0992,2024-10-12,other
+movie_0994,Battle Queen,Mystery,첫프로젝트 시즌 0993,2024-11-19,cjenm
+movie_0995,Big Day,Horror,저주 기록 0994,2024-06-06,only
+movie_0996,Secret Mission,Sci-Fi,비밀의차원 연대기 0995,2024-05-03,other
+movie_0997,House Empire,History,더서사 기록 0996,2024-09-03,other
+movie_0998,Day Legend,Fantasy,다시클립 스페셜 0997,2024-12-27,other
+movie_0999,Ice War,Crime,첫사건 리턴즈 0998,2024-12-24,cjenm
+movie_1000,Last Night,Sport,다시스페셜 연대기 0999,2024-06-10,other
+variety_0001,CBI 5: The Brain,Variety,어느 날 이야기 연대기 1000,2024-11-14,cjenm
+variety_0002,Brooklyn Nine-Nine: Season 7: Captain Kim (Episode 2),Variety,새로운이야기 스페셜 1001,2024-07-04,cjenm
+variety_0003,Never Have I Ever: Season 2: ... stalked my own mother (Episode 9),Variety,마지막이야기 시즌 1002,2024-08-18,cjenm
+variety_0004,Minnal Murali,Variety,비밀의오늘 기록 1003,2024-11-23,other
+variety_0005,Kaapa,Variety,비밀의프로젝트 스페셜 1004,2024-11-28,other
+variety_0006,Beast,Variety,다시오늘 리턴즈 1005,2024-11-29,cjenm
+variety_0007,Wednesday: Season 1: Wednesday's Child Is Full of Woe (Episode 1),Variety,첫이야기 스페셜 1006,2024-11-28,cjenm
+variety_0008,Brooklyn Nine-Nine: Season 2: Johnny and Dora (Episode 23),Variety,더프로젝트 기록 1007,2023-12-16,cjenm
+variety_0009,The Originals: Season 1: Bloodletting (Episode 7),Variety,첫프로젝트 스페셜 1008,2024-08-18,other
+variety_0010,Thallumaala,Variety,새로운프로젝트 비긴즈 1009,2024-09-17,only
+variety_0011,Friends: Season 10: The Last One: Part 1 & Part 2 (Episode 17),Variety,비밀의클립 기록 1010,2024-08-03,only
+variety_0012,Manifest: Season 1: Unclaimed Baggage (Episode 4),Variety,새로운프로젝트 리턴즈 1011,2024-10-02,cjenm
+variety_0013,Money Heist: Part 5: Pillow Talk (Episode 9),Variety,새로운오늘 이야기 1012,2024-03-23,other
+variety_0014,Wednesday: Season 1: Wednesday's Child Is Full of Woe (Episode 1),Variety,더이야기 리턴즈 1013,2024-08-24,other
+variety_0015,Minnal Murali,Variety,첫오늘 연대기 1014,2024-10-29,other
+variety_0016,Brooklyn Nine-Nine: Season 3: The Cruise (Episode 13),Variety,어느 날 클립 시즌 1015,2024-11-23,other
+variety_0017,Thar,Variety,클립 비긴즈 1016,2024-09-17,original
+variety_0018,Kurup (Malayalam),Variety,마지막클립 시즌 1017,2024-09-23,cjenm
+variety_0019,Geostorm,Variety,새로운프로젝트 비긴즈 1018,2024-07-18,cjenm
+variety_0020,Things Heard & Seen,Variety,다시프로젝트 스페셜 1019,2024-07-17,other
+variety_0021,Red Notice,Variety,더클립 이야기 1020,2024-05-23,cjenm
+variety_0022,Ayalvaashi,Variety,어느 날 클립 이야기 1021,2024-10-20,other
+variety_0023,Night Drive,Variety,마지막스페셜 이야기 1022,2024-11-19,original
+variety_0024,Doctor (Tamil),Variety,첫프로젝트 스페셜 1023,2024-08-08,cjenm
+variety_0025,Red Notice,Variety,더클립 스페셜 1024,2024-12-08,other
+variety_0026,Never Have I Ever: Season 2: ... been a playa (Episode 1),Variety,첫스페셜 기록 1025,2024-12-21,other
+variety_0027,Never Have I Ever: Season 2: ... been a perfect girl (Episode 10),Variety,클립 이야기 1026,2024-12-28,other
+variety_0028,Downsizing,Variety,더이야기 이야기 1027,2025-01-01,cjenm
+variety_0029,Downsizing,Variety,첫프로젝트 프로젝트 1028,2024-11-30,other
+variety_0030,Minnal Murali,Variety,비밀의프로젝트 비긴즈 1029,2025-01-01,cjenm
