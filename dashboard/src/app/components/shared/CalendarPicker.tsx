@@ -53,16 +53,25 @@ export function CalendarPicker({ initialStart, initialEnd, onApply, onCancel }: 
 
   const days = getDays(viewYear, viewMonth);
 
+  // ⭐ 추가된 핵심 로직: 2025년 밖으로 못 나가게 막는 조건
+  const canGoPrev = viewYear > 2025 || (viewYear === 2025 && viewMonth > 0);
+  const canGoNext = viewYear < 2025 || (viewYear === 2025 && viewMonth < 11);
+
   const prevMonth = () => {
+    if (!canGoPrev) return; // 2025년 1월 이전으로 못 넘어가게 차단
     if (viewMonth === 0) { setViewYear(y => y - 1); setViewMonth(11); }
     else setViewMonth(m => m - 1);
   };
   const nextMonth = () => {
+    if (!canGoNext) return; // 2025년 12월 이후로 못 넘어가게 차단
     if (viewMonth === 11) { setViewYear(y => y + 1); setViewMonth(0); }
     else setViewMonth(m => m + 1);
   };
 
   const handleDayClick = (d: number) => {
+    // 혹시라도 2025년이 아닌 날짜가 클릭되는 것을 방지
+    if (viewYear !== 2025) return;
+
     const ds = toDateStr(viewYear, viewMonth, d);
     if (!start || (start && end)) {
       setStart(ds); setEnd(null); setHovering(null);
@@ -100,13 +109,23 @@ export function CalendarPicker({ initialStart, initialEnd, onApply, onCancel }: 
     >
       {/* Header: month navigation */}
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "16px" }}>
-        <button onClick={prevMonth} style={{ background: "none", border: "none", cursor: "pointer", color: C.sub, display: "flex", padding: "4px" }}>
+        {/* ⭐ 이전 버튼: 2025년 1월이면 반투명해지고 클릭 불가능하게 변경 */}
+        <button 
+          onClick={prevMonth} 
+          disabled={!canGoPrev}
+          style={{ background: "none", border: "none", cursor: canGoPrev ? "pointer" : "not-allowed", color: C.sub, display: "flex", padding: "4px", opacity: canGoPrev ? 1 : 0.2 }}
+        >
           <ChevronLeft size={16} />
         </button>
         <span style={{ fontFamily: "Inter, sans-serif", fontSize: "13px", fontWeight: 700, color: C.text }}>
           {MONTH_NAMES[viewMonth]} {viewYear}
         </span>
-        <button onClick={nextMonth} style={{ background: "none", border: "none", cursor: "pointer", color: C.sub, display: "flex", padding: "4px" }}>
+        {/* ⭐ 다음 버튼: 2025년 12월이면 반투명해지고 클릭 불가능하게 변경 */}
+        <button 
+          onClick={nextMonth} 
+          disabled={!canGoNext}
+          style={{ background: "none", border: "none", cursor: canGoNext ? "pointer" : "not-allowed", color: C.sub, display: "flex", padding: "4px", opacity: canGoNext ? 1 : 0.2 }}
+        >
           <ChevronRight size={16} />
         </button>
       </div>
@@ -129,19 +148,22 @@ export function CalendarPicker({ initialStart, initialEnd, onApply, onCancel }: 
           const isE       = isEnd(ds);
           const inR       = inRange(ds);
           const isEndpoint = isS || isE;
+          const isOutOfRange = viewYear !== 2025; // 2025년이 아니면 날짜 클릭 차단
+
           return (
             <button
               key={ds}
               onClick={() => handleDayClick(d)}
               onMouseEnter={() => { if (start && !end) setHovering(ds); }}
               onMouseLeave={() => setHovering(null)}
+              disabled={isOutOfRange}
               style={{
                 padding: "6px 2px",
                 textAlign: "center",
                 fontFamily: "Inter, sans-serif",
                 fontSize: "11px",
                 fontWeight: isEndpoint ? 700 : 400,
-                color: isEndpoint ? "#fff" : inR ? C.text : C.sub,
+                color: isOutOfRange ? C.border : (isEndpoint ? "#fff" : inR ? C.text : C.sub),
                 background: isEndpoint
                   ? C.tvRed
                   : inR
@@ -149,8 +171,9 @@ export function CalendarPicker({ initialStart, initialEnd, onApply, onCancel }: 
                   : "transparent",
                 border: "none",
                 borderRadius: isEndpoint ? "6px" : "4px",
-                cursor: "pointer",
+                cursor: isOutOfRange ? "not-allowed" : "pointer",
                 transition: "all 0.1s",
+                opacity: isOutOfRange ? 0.3 : 1
               }}
             >
               {d}

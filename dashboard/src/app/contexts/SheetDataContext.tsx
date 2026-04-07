@@ -18,7 +18,7 @@ const sheetUrl = (name: string) =>
   `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${encodeURIComponent(name)}?key=${API_KEY}`;
 
 const URL_USERS       = sheetUrl("dashboard_results_final10");
-const URL_CHURN_FINAL = sheetUrl("churn_final"); // ★ 추가: 페르소나 타입이 있는 시트
+const URL_CHURN_FINAL = sheetUrl("churn_final"); // ★ 추가: 페르소나 타입 및 KPI 데이터가 있는 시트
 const URL_SHAP_GLOBAL = sheetUrl("shap_global_importance");
 const URL_SHAP_HIGH   = sheetUrl("shap_global_High_drivers");
 const URL_SHAP_MID    = sheetUrl("shap_global_Mid_drivers");
@@ -47,11 +47,25 @@ export type ShapItem = { feature: string; score: number };
 export type WatchLog = { timestamp: string; genre_primary: string; view_duration_minutes: number; };
 export type DataStatus = "loading" | "success" | "error";
 
+// ★ 수정: 프론트엔드 연동을 위해 totalUsers, activeUsers, avgTenure 타입 추가
 export type SheetKPI = {
-  total: number; highRiskCount: number; midRiskCount: number; lowRiskCount: number; predictedChurn: number; churnRate: string;
+  total: number; 
+  totalUsers: number; 
+  activeUsers: number; 
+  highRiskCount: number; 
+  midRiskCount: number; 
+  lowRiskCount: number; 
+  predictedChurn: number; 
+  avgTenure: string;
+  churnRate: string;
 };
 
-const DEFAULT_KPI: SheetKPI = { total: 0, highRiskCount: 0, midRiskCount: 0, lowRiskCount: 0, predictedChurn: 0, churnRate: "0.0" };
+// ★ 수정: DEFAULT_KPI에도 새로 추가한 항목들의 초기값(0) 부여
+const DEFAULT_KPI: SheetKPI = { 
+  total: 0, totalUsers: 0, activeUsers: 0, 
+  highRiskCount: 0, midRiskCount: 0, lowRiskCount: 0, 
+  predictedChurn: 0, avgTenure: "0.0", churnRate: "0.0" 
+};
 
 export type SheetErrors = { users: boolean; global: boolean; high: boolean; mid: boolean; low: boolean; watchLogs: boolean; churnFinal: boolean; };
 
@@ -95,11 +109,9 @@ function mapDevice(smartphone: number, tvSet: number, tablet: number, pc: number
   return "Mobile";
 }
 
-// ★ 두 시트 데이터를 합치는 핵심 로직 (json = dashboard_results_final10, churnJson = churn_final)
 function parseUsers(json: any, churnJson: any): User[] {
   const rows = parseRows(json);
   
-  // churn_final.csv 데이터를 파싱하고 user_id 기준으로 맵핑합니다.
   const churnRows = churnJson ? parseRows(churnJson) : [];
   const churnMap = new Map();
   churnRows.forEach(r => churnMap.set(r.user_id, r));
@@ -109,21 +121,20 @@ function parseUsers(json: any, churnJson: any): User[] {
     const rb: RiskBand = r.Risk_Band === "High" ? "High Risk" : r.Risk_Band === "Mid" ? "Mid Risk" : "Low Risk";
     const lastActive = r.days_since_last_watch === null || r.days_since_last_watch >= 9999 ? null : r.days_since_last_watch;
     
-    // 합칠 데이터 불러오기
     const churnData = churnMap.get(r.user_id) || {};
 
     return {
-      user_id:               String(r.user_id || `user_${i}`),
-      date:                  String(r.date || "2025-12-10"),
-      churn_score:           pct / 100,
-      churn_probability_pct: pct,
-      risk_band:             rb,
-      watch_time:            r.watch_hours || 0,
-      search_count:          r.search_engagement || 0,
-      recommend_click:       r.content_diversity_score || 0,
-      device:                mapDevice(Number(r.freq_smartphone) || 0, Number(r.freq_tv_set) || 0, Number(r.freq_tablet) || 0, Number(r.freq_pc) || 0),
-      segment:               r.segment_volume === "Heavy_Viewer" ? "Power User" : r.segment_volume === "Medium_Viewer" ? "Regular User" : "Low Activity",
-      last_active_days:      lastActive,
+      user_id:                 String(r.user_id || `user_${i}`),
+      date:                    String(r.date || "2025-12-10"),
+      churn_score:             pct / 100,
+      churn_probability_pct:   pct,
+      risk_band:               rb,
+      watch_time:              r.watch_hours || 0,
+      search_count:            r.search_engagement || 0,
+      recommend_click:         r.content_diversity_score || 0,
+      device:                  mapDevice(Number(r.freq_smartphone) || 0, Number(r.freq_tv_set) || 0, Number(r.freq_tablet) || 0, Number(r.freq_pc) || 0),
+      segment:                 r.segment_volume === "Heavy_Viewer" ? "Power User" : r.segment_volume === "Medium_Viewer" ? "Regular User" : "Low Activity",
+      last_active_days:        lastActive,
       content_diversity_score: r.content_diversity_score || 0,
       completion_rate:         r.completion_rate || 0,
       search_engagement:       r.search_engagement || 0,
@@ -134,9 +145,12 @@ function parseUsers(json: any, churnJson: any): User[] {
       segment_volume:          r.segment_volume || "",
       segment_explore:         r.segment_explore || "",
       segment_taste:           r.segment_taste || "",
-      // ★ 합체 완료! churn_final 시트에 있던 persona_type을 연결해줍니다.
       persona_type:            churnData.persona_type || "",
-    };
+
+      // ★ KPI 계산용 숨겨진 필드 추가 (Type 에러를 막기 위해 임시 보관)
+      _tenure_months: Number(r.tenure_months || churnData.tenure_months || 0),
+      _churn_status: Number(r.churn_status || churnData.churn_status || 0),
+    } as User;
   });
 }
 
@@ -164,13 +178,25 @@ export function SheetDataProvider({ children }: { children: ReactNode }) {
 
   const [sheetErrors, setSheetErrors] = useState<SheetErrors>({ users: false, global: false, high: false, mid: false, low: false, watchLogs: false, churnFinal: false });
 
+  // ★ 가장 핵심 로직: 불러온 데이터를 바탕으로 5대 KPI 수식을 직접 계산합니다.
   const applyUsers = useCallback((mapped: User[]) => {
-    const total = mapped.length;
-    const high  = mapped.filter((u) => u.risk_band === "High Risk");
-    const mid   = mapped.filter((u) => u.risk_band === "Mid Risk");
-    const low   = mapped.filter((u) => u.risk_band === "Low Risk");
+    const totalUsers = mapped.length;
+    const high = mapped.filter((u) => u.risk_band === "High Risk");
+    const mid  = mapped.filter((u) => u.risk_band === "Mid Risk");
+    const low  = mapped.filter((u) => u.risk_band === "Low Risk");
+
+    // 1. 총 활성 사용자 (마지막 접속일이 7일 이하인 유저)
+    const activeUsers = mapped.filter((u) => u.last_active_days !== null && u.last_active_days <= 7).length;
+
+    // 2. 평균 구독 기간 (전체 유저의 tenure_months 합 / 전체 유저 수)
+    const totalTenure = mapped.reduce((sum, u: any) => sum + (u._tenure_months || 0), 0);
+    const avgTenure = totalUsers > 0 ? (totalTenure / totalUsers).toFixed(1) : "0.0";
+
+    // 3. 월간 이탈율 (이탈 유저 수 / 전체 유저 수 * 100)
+    const churnedUsers = mapped.filter((u: any) => u._churn_status === 1).length;
+    const churnRate = totalUsers > 0 ? ((churnedUsers / totalUsers) * 100).toFixed(1) : "0.0";
+
     const predicted = Math.round(high.length * 0.85);
-    const churnRate = total > 0 ? ((predicted / total) * 100).toFixed(1) : "0.0";
 
     const hist: HistBin[] = HIST_BIN_DEFS.map((b) => ({
       range: b.range, risk_band: b.risk_band, color: b.color,
@@ -179,14 +205,30 @@ export function SheetDataProvider({ children }: { children: ReactNode }) {
 
     const t10 = [...high].sort((a, b) => b.churn_score - a.churn_score).slice(0, 10);
 
-    setUsers(mapped); setDataCount(total); setKpi({ total, highRiskCount: high.length, midRiskCount: mid.length, lowRiskCount: low.length, predictedChurn: predicted, churnRate });
-    setHistogramData(hist); setTop10(t10.length > 0 ? t10 : DEFAULT_TOP10); setLastUpdated(new Date().toLocaleString("ko-KR"));
+    setUsers(mapped); 
+    setDataCount(totalUsers); 
+    
+    // ★ 계산된 진짜 KPI 값들을 꽂아줍니다.
+    setKpi({ 
+      total: totalUsers, 
+      totalUsers: totalUsers, 
+      activeUsers: activeUsers,
+      highRiskCount: high.length, 
+      midRiskCount: mid.length, 
+      lowRiskCount: low.length, 
+      predictedChurn: predicted, 
+      avgTenure: avgTenure,
+      churnRate: churnRate 
+    });
+    
+    setHistogramData(hist); 
+    setTop10(t10.length > 0 ? t10 : DEFAULT_TOP10); 
+    setLastUpdated(new Date().toLocaleString("ko-KR"));
   }, []);
 
   const fetchData = useCallback(async () => {
     setStatus("loading");
 
-    // ★ churn_final 시트까지 총 7개를 동시에 불러옵니다.
     const [usersRes, globalRes, highRes, midRes, lowRes, watchRes, churnFinalRes] =
       await Promise.allSettled([
         fetch(URL_USERS).then((r) => { if (!r.ok) throw new Error(); return r.json(); }),
@@ -195,7 +237,7 @@ export function SheetDataProvider({ children }: { children: ReactNode }) {
         fetch(URL_SHAP_MID).then((r) => { if (!r.ok) throw new Error(); return r.json(); }),
         fetch(URL_SHAP_LOW).then((r) => { if (!r.ok) throw new Error(); return r.json(); }),
         fetch(URL_WATCH_LOGS).then((r) => { if (!r.ok) throw new Error(); return r.json(); }),
-        fetch(URL_CHURN_FINAL).then((r) => { if (!r.ok) throw new Error(); return r.json(); }), // ★ 추가
+        fetch(URL_CHURN_FINAL).then((r) => { if (!r.ok) throw new Error(); return r.json(); }),
       ]);
 
     const errors: SheetErrors = {
@@ -209,7 +251,6 @@ export function SheetDataProvider({ children }: { children: ReactNode }) {
     };
     setSheetErrors(errors);
 
-    // 두 개의 JSON 데이터를 넘겨주어 병합 파싱을 진행합니다.
     if (usersRes.status === "fulfilled") { 
       const churnJson = churnFinalRes.status === "fulfilled" ? churnFinalRes.value : null;
       const mapped = parseUsers(usersRes.value, churnJson); 
@@ -239,7 +280,6 @@ export function SheetDataProvider({ children }: { children: ReactNode }) {
           case "mid": { const p = parseShapDrivers(json, "churn_impact"); if (p.length > 0) setShapMid(p); break; }
           case "low": { const p = parseShapDrivers(json, "retention_impact"); if (p.length > 0) setShapLow(p); break; }
           case "watchLogs": { const p = parseWatchLogs(json); if (p.length > 0) setWatchLogs(p); break; }
-          // churnFinal 재시도 로직은 생략 (보통 users와 같이 묶여서 처리됨)
         }
       } catch {
         setSheetErrors((prev) => ({ ...prev, [sheet]: true }));

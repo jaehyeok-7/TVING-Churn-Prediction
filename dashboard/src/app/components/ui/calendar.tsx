@@ -13,10 +13,27 @@ function Calendar({
   showOutsideDays = true,
   ...props
 }: React.ComponentProps<typeof DayPicker>) {
+  
+  // ── 데이터 제한 설정 ────────────────────────────────
+  const maxDate = new Date(2025, 11, 31); // 2025년 12월 31일
+
   return (
     <DayPicker
       showOutsideDays={showOutsideDays}
       className={cn("p-3", className)}
+
+      // 1️⃣ [핵심] 2026년 이후 날짜 비활성화
+      disabled={{ after: maxDate }}
+      
+      // 2️⃣ [추가] 달력 화살표로 2026년으로 넘어가는 것 방지
+      fromDate={new Date(2020, 0, 1)} // 시작일 (필요시 조정)
+      toDate={maxDate}               // 종료일을 2025년으로 고정
+
+      // 3️⃣ [방어] 선택 이벤트 강제 차단
+      onDayClick={(day, modifiers) => {
+        if (modifiers.disabled) return false;
+      }}
+
       classNames={{
         months: "flex flex-col sm:flex-row gap-2",
         month: "flex flex-col gap-4",
@@ -53,7 +70,10 @@ function Calendar({
         day_today: "bg-accent text-accent-foreground",
         day_outside:
           "day-outside text-muted-foreground aria-selected:text-muted-foreground",
-        day_disabled: "text-muted-foreground opacity-50",
+        
+        // 4️⃣ [스타일] 확실한 시각적 차단 효과
+        day_disabled: "text-gray-600 opacity-20 cursor-not-allowed pointer-events-none", 
+        
         day_range_middle:
           "aria-selected:bg-accent aria-selected:text-accent-foreground",
         day_hidden: "invisible",
@@ -67,9 +87,10 @@ function Calendar({
           <ChevronRight className={cn("size-4", className)} {...props} />
         ),
       }}
+      
       {...props}
-    />
-  );
-}
-
-export { Calendar };
+      />
+    );
+  }
+  
+  export { Calendar };

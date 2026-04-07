@@ -219,6 +219,7 @@ export function ChurnReasonsChart() {
         })}
       </div>
 
+      {/* ✅ 수정된 하단 요약 바: 버튼과 클릭 효과를 완전히 제거했습니다. */}
       <div
         style={{
           marginTop: "18px",
@@ -228,12 +229,7 @@ export function ChurnReasonsChart() {
           borderRadius: "8px",
           display: "flex",
           alignItems: "center",
-          justifyContent: "space-between",
-          cursor: "pointer",
-          transition: "background 0.15s",
         }}
-        onMouseEnter={(e) => ((e.currentTarget as HTMLDivElement).style.background = "rgba(227,6,19,0.14)")}
-        onMouseLeave={(e) => ((e.currentTarget as HTMLDivElement).style.background = "rgba(227,6,19,0.08)")}
       >
         <span
           style={{
@@ -243,16 +239,6 @@ export function ChurnReasonsChart() {
           }}
         >
           💡 {top2Labels}이(가) 전체 이탈의 <strong style={{ color: "#FFFFFF" }}>{top2Pct}%</strong> 차지
-        </span>
-        <span
-          style={{
-            fontFamily: "Inter, sans-serif",
-            fontSize: "11px",
-            fontWeight: 600,
-            color: "#FF153C",
-          }}
-        >
-          개입 전략 보기 →
         </span>
       </div>
     </div>

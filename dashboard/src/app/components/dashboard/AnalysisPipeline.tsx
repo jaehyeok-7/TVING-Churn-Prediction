@@ -11,36 +11,36 @@ import {
 const steps = [
   {
     icon: Database,
-    label: "데이터 수집",
-    sub: "행동·결제·콘텐츠",
+    label: "서비스 상태", // 변경: 데이터 수집 -> 서비스 상태
+    sub: "종합 현황 분석", // 변경: 행동·결제·콘텐츠 -> 종합 현황 분석
     color: "#6C63FF",
     path: "/analysis?tab=service",
   },
   {
     icon: BarChart2,
-    label: "패턴 분석",
-    sub: "시청 패턴 추출",
+    label: "사용자 행동 패턴", // 변경: 패턴 분석 -> 사용자 행동 패턴
+    sub: "시청·접속 패턴 추출", // 변경: 시청 패턴 추출 -> 시청·접속 패턴 추출
     color: "#6C63FF",
     path: "/analysis?tab=behavior",
   },
   {
     icon: Layers,
-    label: "세그먼트 분류",
-    sub: "사용자 유형 구분",
+    label: "사용자 분석", // 변경: 세그먼트 분류 -> 사용자 분석
+    sub: "유형별 특성 분석", // 변경: 사용자 유형 구분 -> 유형별 특성 분석
     color: "#FFB74D",
     path: "/analysis?tab=user",
   },
   {
     icon: Brain,
-    label: "이탈 예측",
-    sub: "ML 모델 스코어링",
+    label: "이탈 위험 분석", // 변경: 이탈 예측 -> 이탈 위험 분석
+    sub: "AI 위험도 스코어링", // 변경: ML 모델 스코어링 -> AI 위험도 스코어링
     color: "#FFB74D",
     path: "/churn-action?tab=churn",
   },
   {
     icon: Zap,
-    label: "개입 전략",
-    sub: "자동화 캠페인",
+    label: "개입 전략", // 유지
+    sub: "맞춤형 대응 캠페인", // 변경: 자동화 캠페인 -> 맞춤형 대응 캠페인
     color: "#E30613",
     path: "/churn-action?tab=action",
   },
@@ -91,7 +91,7 @@ export function AnalysisPipeline() {
             color: "#C4CAE0",
           }}
         >
-          데이터→전략 흐름
+          인사이트→전략 흐름
         </div>
       </div>
 
@@ -121,10 +121,11 @@ export function AnalysisPipeline() {
                 style={{
                   display: "flex",
                   alignItems: "center",
-                  gap: "8px",
+                  gap: "10px", // 가독성을 위해 간격을 소폭 넓힘
                   padding: "8px 12px",
                   borderRadius: "8px",
                   cursor: "pointer",
+                  border: "none", // 기본 보더 제거
                   outline: "none",
                   transition: "all 0.15s",
                   position: "relative",
@@ -211,7 +212,7 @@ export function AnalysisPipeline() {
                     strokeWidth={2.5}
                   />
                 </div>
-                <div>
+                <div style={{ textAlign: "left" }}>
                   <div
                     style={{
                       fontFamily:

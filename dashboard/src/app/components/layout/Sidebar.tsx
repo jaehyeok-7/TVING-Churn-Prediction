@@ -252,25 +252,6 @@ export function Sidebar() {
           </div>
         ))}
       </nav>
-
-      {/* Version */}
-      <div
-        style={{
-          padding: "14px 20px",
-          borderTop: `1px solid ${C.border}`,
-          flexShrink: 0,
-        }}
-      >
-        <div
-          style={{
-            fontFamily: "Inter, sans-serif",
-            fontSize: "10px",
-            color: C.section,
-          }}
-        >
-          v2.4.1 · 2026.03
-        </div>
-      </div>
     </aside>
   );
 }
