@@ -221,7 +221,7 @@ beeswarm 시각화를 통해 각 변수의 영향 분포와 방향성을 함께 
 
 ## 14. Dashboard
 
-🔗 [Live Dashboard](https://www.figma.com/design/j0lyiqV8iUbE3On18JXn8A/TVING-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C--%EB%B3%B5%EC%82%AC-)
+🔗 [Live Dashboard](https://www.figma.com/make/JzShHp6hijGdX9nrRTUJxb/TVING-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C--%EC%B5%9C%EC%A2%85-?p=f&t=L3C5YRPLhnlHnmFn-0)
 
 ![Dashboard Preview](./output/dashboard_main.png)
 
