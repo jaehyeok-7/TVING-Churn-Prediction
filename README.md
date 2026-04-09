@@ -53,7 +53,7 @@
 - **Evaluation**: scikit-learn
 - **Interpretation**: SHAP
 - **Visualization**: matplotlib
-- **Dashboard**: TSX 기반 컴포넌트 구조
+- **Dashboard**: Figma + TSX 기반 컴포넌트 구조
 - **Version Control**: GitHub
 
 ---
