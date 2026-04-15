@@ -80,7 +80,7 @@ FINAL PROJECT/
 │   └── synthetic_watch_2025.csv
 ├── docs/
 │   ├── 8_데이터구조_변수정의서.xlsx
-│   ├── 11_피처엔지니어링_변수정의서.xlsx
+│   ├── 10_피처엔지니어링_변수정의서.xlsx
 │   └── 11_EDA_변수정의서.xlsx
 ├── notebooks/
 │   ├── SHAP_핵심코드.ipynb
