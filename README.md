@@ -249,3 +249,10 @@ beeswarm 시각화를 통해 각 변수의 영향 분포와 방향성을 함께 
 프로젝트 보고서는 아래 경로에서 확인할 수 있습니다.
 
 - [최종프로젝트 보고서](./report/최종프로젝트_보고서.pdf)
+
+## 17. How to Run Dashboard Locally
+
+```bash
+cd dashboard
+npm install
+npx vite
